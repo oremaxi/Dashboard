@@ -20,18 +20,18 @@ const navItems = [
     icon: HistoryIcon,
     exact: true
   },
-  {
-    path: '/strategies',
-    label: 'navigation.strategies',
-    icon: BookOpenIcon,
-    exact: true
-  },
-  {
-    path: '/api',
-    label: 'navigation.api',
-    icon: CodeIcon,
-    exact: true
-  }
+  // {
+  //   path: '/strategies',
+  //   label: 'navigation.strategies',
+  //   icon: BookOpenIcon,
+  //   exact: true
+  // },
+  // {
+  //   path: '/api',
+  //   label: 'navigation.api',
+  //   icon: CodeIcon,
+  //   exact: true
+  // }
 ];
 
 export const Navigation: React.FC = () => {

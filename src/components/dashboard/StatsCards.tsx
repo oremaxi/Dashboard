@@ -110,30 +110,23 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats, loading = 
       trend: { value: 8.3, isPositive: true }
     },
     // {
-    //   title: t('dashboard.bids'),
-    //   value: stats.bids,
-    //   icon: <TrendingUp size="md" className="text-yellow-400" />,
-    //   color: 'yellow' as const,
-    //   trend: { value: 15.7, isPositive: true }
+    //   title: t('dashboard.buyback'),
+    //   value: formatSOL(stats.buyback),
+    //   icon: <DollarSign size="md" className="text-purple-400" />,
+    //   color: 'purple' as const,
+    //   trend: { value: 5.2, isPositive: false }
     // },
-    {
-      title: t('dashboard.buyback'),
-      value: formatSOL(stats.buyback),
-      icon: <DollarSign size="md" className="text-purple-400" />,
-      color: 'purple' as const,
-      trend: { value: 5.2, isPositive: false }
-    },
-    {
-      title: t('dashboard.estimatedCost'),
-      value: formatSOL(stats.estimatedCost),
-      icon: <TrendingUp size="md" className="text-red-400" />,
-      color: 'red' as const,
-      trend: { value: 3.1, isPositive: true }
-    }
+    // {
+    //   title: t('dashboard.estimatedCost'),
+    //   value: formatSOL(stats.estimatedCost),
+    //   icon: <TrendingUp size="md" className="text-red-400" />,
+    //   color: 'red' as const,
+    //   trend: { value: 3.1, isPositive: true }
+    // }
   ];
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-4">
       {cards.map((card, index) => (
         <StatsCard
           key={index}

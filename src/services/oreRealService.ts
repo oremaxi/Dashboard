@@ -93,8 +93,53 @@ export class ORERealService {
   /**
    * 获取实时ORE数据
    */
-  async getRealOREData(): Promise<ORERealData> {
+  async getRealOREData(): Promise<any> {
     try {
+      const res = await fetch('/mock.json');
+      const json = await res.json();
+      const resBid = await fetch('/mockBid.json');
+      const jsonBid = await resBid.json();
+
+      console.log("mock.json:", json,jsonBid);
+      
+      return {
+        tokenInfo: {
+          mint: ORE_CONSTANTS.TOKEN_MINT,
+          supply: Number(41113631952575),
+          decimals: 11,
+          maxSupply: 500000000000000, // 5M ORE * 10^11
+          supplyPercentage: Number(41113631952575) / 500000000000000
+        },
+        miningData:{
+          currentRound: {
+            roundNumber:json.round.roundId,
+            startTime: (new Date(json.round.observedAt).getTime())-(Number(json.round.mining.remainingSlots)*400),
+            endTime: (new Date(json.round.observedAt).getTime())+(Number(json.round.mining.remainingSlots)*400),
+            remainingTime: Math.max((Number(json.round.mining.remainingSlots)*400)),
+            totalDeployedSOL: json.round.totals.deployedSol, // 这里需要从链上交易日志计算
+            activeMiners: jsonBid.uniqueMiners,
+            claimedRewards: 0
+          },
+          statistics:{
+            totalRewards: json.round.totals.deployedSol,
+            activeMiners: jsonBid.uniqueMiners,
+            totalTransactions: jsonBid.uniqueMiners,
+            avgReward: json.round.totals.deployedSol/25
+          },
+          counts:json.round.perSquare.counts,
+          sols:json.round.perSquare.deployedSol
+        },
+        realTimeData: {
+          lastBlockTime: Date.now(),
+          slot:json.round.mining.startSlot,
+          connectionHealth: true
+        }
+      };
+
+      return json;
+      // setData(json);
+
+
       const currentTime = Date.now();
       const slot = await this.connection.getSlot();
       const blockTime = await this.connection.getBlockTime(slot).catch(() => Math.floor(currentTime / 1000));

@@ -52,15 +52,15 @@ export function generateMockMiningRounds(count: number = 10): MiningRound[] {
 }
 
 // 生成5x5网格数据
-export function generateGridData(round: MiningRound): GridCell[] {
+export function generateGridData(round: any): GridCell[] {
   const cells: GridCell[] = [];
   const averageDeployedSOL = round.totalDeployedSOL / 25; // 平均每个网格的SOL
-  
+  let i = 0;
   for (let row = 0; row < 5; row++) {
     for (let col = 0; col < 5; col++) {
       const index = row * 5 + col;
-      const miners = randomIntBetween(5, 30);
-      const deployedSOL = randomBetween(averageDeployedSOL * 0.5, averageDeployedSOL * 1.5);
+      const miners = round?.miningData ? round.miningData.counts[i] : 0;
+      const deployedSOL = round?.miningData ?  Number(round.miningData.sols[i]) :0;
       const isAboveAverage = deployedSOL > averageDeployedSOL;
       
       // 基于部署SOL数量计算颜色强度
@@ -76,6 +76,7 @@ export function generateGridData(round: MiningRound): GridCell[] {
         isSelected: false,
         colorIntensity: intensity
       });
+      i++;
     }
   }
   
@@ -144,7 +145,8 @@ export function calculateCountdown(endTime: number): {
 }
 
 // 格式化数字
-export function formatNumber(num: number, decimals: number = 2): string {
+export function formatNumber(_num: any, decimals: number = 2): string {
+  const num = Number(_num)
   if (num >= 1000000000) {
     return (num / 1000000000).toFixed(decimals) + 'B';
   } else if (num >= 1000000) {
@@ -152,7 +154,7 @@ export function formatNumber(num: number, decimals: number = 2): string {
   } else if (num >= 1000) {
     return (num / 1000).toFixed(decimals) + 'K';
   }
-  return num.toFixed(decimals);
+  return Number(num.toFixed(decimals)).toString();
 }
 
 // 格式化SOL数量

@@ -54,13 +54,13 @@ export const Dashboard: React.FC = () => {
       setRealData(data);
       
       // 如果获取到真实数据，更新页面状态
-      if (data.miningData.currentRound) {
+      if (data?.miningData && data.miningData?.currentRound) {
         const currentTime = Date.now();
         const roundDuration = 24 * 60 * 60 * 1000; // 1天
         const startTime = data.miningData.currentRound.startTime;
         const endTime = data.miningData.currentRound.endTime;
         
-        const realRound: MiningRound = {
+        const realRound: any = {
           id: `round-${data.miningData.currentRound.roundNumber}`,
           roundNumber: data.miningData.currentRound.roundNumber,
           startTime,
@@ -68,13 +68,15 @@ export const Dashboard: React.FC = () => {
           startSlot: data.realTimeData.slot,
           currentSlot: data.realTimeData.slot,
           endSlot: data.realTimeData.slot + 216000, // 一天的slots
-          totalDeployedSOL: data.miningData.currentRound.boardState.totalDeployedSOL,
+          totalDeployedSOL: data.miningData.currentRound.totalDeployedSOL,
           uniqueMiners: data.miningData.statistics.activeMiners,
           bids: Math.floor(data.miningData.statistics.totalTransactions / 10), // 估算
           buyback: Math.random() * 1000 + 500, // 模拟
           estimatedCost: Math.random() * 500 + 200, // 模拟
-          status: currentTime < endTime ? 'active' : 'completed'
+          status: currentTime < endTime ? 'active' : 'completed',
+          miningData : data.miningData
         };
+        console.log("realRound",realRound)
         setCurrentRound(realRound);
         
         // 基于真实数据生成网格和统计
@@ -132,7 +134,7 @@ export const Dashboard: React.FC = () => {
   const getConnectionStatus = () => {
     if (isLoadingRealData) return { status: 'loading', text: '连接中...', color: 'yellow' };
     if (error && !realData) return { status: 'error', text: '数据获取失败', color: 'red' };
-    if (realData?.realTimeData.connectionHealth) return { status: 'connected', text: '已连接', color: 'green' };
+    if (realData?.realTimeData &&realData.realTimeData?.connectionHealth) return { status: 'connected', text: '已连接', color: 'green' };
     return { status: 'disconnected', text: '连接中断', color: 'red' };
   };
 
@@ -179,7 +181,7 @@ export const Dashboard: React.FC = () => {
         </div>
 
         {/* 错误警告 */}
-        {error && (
+        {/* {error && (
           <div className="mb-6">
             <Card variant="glass" className="border-yellow-500/20">
               <CardContent className="p-4">
@@ -194,7 +196,7 @@ export const Dashboard: React.FC = () => {
               </CardContent>
             </Card>
           </div>
-        )}
+        )} */}
 
         {/* Top Section: Stats and Countdown */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-6">
@@ -245,19 +247,19 @@ export const Dashboard: React.FC = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
                 <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
                   <span className="text-xs">智能内存池</span>
                 </Button>
                 <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
                   <span className="text-xs">历史轮次</span>
                 </Button>
-                <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
+                {/* <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
                   <span className="text-xs">策略指南</span>
                 </Button>
                 <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
                   <span className="text-xs">API 文档</span>
-                </Button>
+                </Button> */}
               </div>
             </CardContent>
           </Card>

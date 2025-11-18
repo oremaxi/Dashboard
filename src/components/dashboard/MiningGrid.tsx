@@ -16,12 +16,12 @@ interface MiningGridProps {
 }
 
 // 生成真实的5x5网格数据
-const generateRealGridData = (realData: ORERealData): GridCell[] => {
+const generateRealGridData = (realData: any): GridCell[] => {
   const cells: GridCell[] = [];
-  const totalMiners = realData.miningData.currentRound.boardState.activeMiners || 0;
-  const totalDeployed = realData.miningData.currentRound.boardState.totalDeployedSOL || 0;
+  const totalMiners = realData.miningData.currentRound.activeMiners || 0;
+  const totalDeployed = realData.miningData.currentRound.totalDeployedSOL || 0;
   const averagePerCell = totalDeployed / 25; // 5x5 = 25 cells
-
+  let i = 0;
   for (let row = 0; row < 5; row++) {
     for (let col = 0; col < 5; col++) {
       const cellId = `${row}-${col}`;
@@ -29,9 +29,8 @@ const generateRealGridData = (realData: ORERealData): GridCell[] => {
       
       // 基于真实数据模拟每个区块的矿工分布
       // 使用算法生成有机的分布模式
-      const minerDistribution = Math.sin(cellIndex * 0.8) * Math.cos(cellIndex * 0.6);
-      const miners = Math.max(0, Math.round(totalMiners / 25 + minerDistribution * totalMiners / 50));
-      const deployedSOL = Math.max(0, averagePerCell + minerDistribution * averagePerCell * 0.5);
+      const miners =  realData?.miningData ? Number(realData.miningData.counts[i]) : 0;
+      const deployedSOL = realData?.miningData ?  Number(realData.miningData.sols[i]) :0;
       const isAboveAverage = deployedSOL > averagePerCell;
       
       cells.push({
@@ -42,8 +41,10 @@ const generateRealGridData = (realData: ORERealData): GridCell[] => {
         deployedSOL,
         isSelected: false,
         isAboveAverage,
-        colorIntensity: Math.min(1, Math.abs(minerDistribution) * 2)
+        colorIntensity: Math.min(deployedSOL / (averagePerCell * 1.5), 1)
       });
+
+      i++;
     }
   }
 

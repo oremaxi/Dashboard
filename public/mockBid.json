@@ -1,0 +1,13711 @@
+{
+"roundId": "56954",
+"collectedAt": "2025-11-18T03:52:26.292Z",
+"uniqueMiners": 438,
+"bids": [
+{
+"square": 1,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "50000000",
+"amountSol": "0.05",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "40000000",
+"amountSol": "0.04",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "30110000",
+"amountSol": "0.03011",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "30000000",
+"amountSol": "0.03",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "20000000",
+"amountSol": "0.02",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 6,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 12,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 0,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 1,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 4,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 5,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 7,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 8,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 9,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 10,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 11,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 13,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 14,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 15,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 16,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 17,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 19,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 21,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 22,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 23,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 8
+},
+{
+"square": 24,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 2,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 18,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 7
+},
+{
+"square": 20,
+"amountRaw": "10000000",
+"amountSol": "0.01",
+"count": 4
+},
+{
+"square": 0,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "7100000",
+"amountSol": "0.0071",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "5510000",
+"amountSol": "0.00551",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "5510000",
+"amountSol": "0.00551",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "5510000",
+"amountSol": "0.00551",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "5510000",
+"amountSol": "0.00551",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "5000000",
+"amountSol": "0.005",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "4000000",
+"amountSol": "0.004",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "3110000",
+"amountSol": "0.00311",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "3110000",
+"amountSol": "0.00311",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "3110000",
+"amountSol": "0.00311",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "3110000",
+"amountSol": "0.00311",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "3000000",
+"amountSol": "0.003",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "2500000",
+"amountSol": "0.0025",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 1,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 2,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 4,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 6,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 8,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 9,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 12,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 14,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 16,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 17,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 19,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 20,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 3
+},
+{
+"square": 24,
+"amountRaw": "2000000",
+"amountSol": "0.002",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1500000",
+"amountSol": "0.0015",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "1300000",
+"amountSol": "0.0013",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "1240000",
+"amountSol": "0.00124",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "1100000",
+"amountSol": "0.0011",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 16
+},
+{
+"square": 1,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 2,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 9
+},
+{
+"square": 3,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 14
+},
+{
+"square": 4,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 6,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 13
+},
+{
+"square": 8,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 11
+},
+{
+"square": 10,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 11,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 12,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 13,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 14,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 10
+},
+{
+"square": 16,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 13
+},
+{
+"square": 18,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 11
+},
+{
+"square": 20,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 10
+},
+{
+"square": 21,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 10
+},
+{
+"square": 22,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 15
+},
+{
+"square": 23,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 24,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 11
+},
+{
+"square": 7,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 8
+},
+{
+"square": 5,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 11
+},
+{
+"square": 9,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 9
+},
+{
+"square": 15,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 19,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 12
+},
+{
+"square": 17,
+"amountRaw": "1000000",
+"amountSol": "0.001",
+"count": 10
+},
+{
+"square": 17,
+"amountRaw": "900000",
+"amountSol": "0.0009",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "900000",
+"amountSol": "0.0009",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "900000",
+"amountSol": "0.0009",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "900000",
+"amountSol": "0.0009",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "900000",
+"amountSol": "0.0009",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "800000",
+"amountSol": "0.0008",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "777000",
+"amountSol": "0.000777",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "777000",
+"amountSol": "0.000777",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "777000",
+"amountSol": "0.000777",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "700000",
+"amountSol": "0.0007",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "620000",
+"amountSol": "0.00062",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "600000",
+"amountSol": "0.0006",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "550000",
+"amountSol": "0.00055",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 1,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 5
+},
+{
+"square": 2,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 3,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 4,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 8
+},
+{
+"square": 5,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 5
+},
+{
+"square": 6,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 5
+},
+{
+"square": 7,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 7
+},
+{
+"square": 8,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 7
+},
+{
+"square": 9,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 10,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 8
+},
+{
+"square": 11,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 12,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 8
+},
+{
+"square": 13,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 14,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 15,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 8
+},
+{
+"square": 16,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 7
+},
+{
+"square": 17,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 18,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 7
+},
+{
+"square": 19,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 7
+},
+{
+"square": 20,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 21,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 8
+},
+{
+"square": 22,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 7
+},
+{
+"square": 23,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 6
+},
+{
+"square": 24,
+"amountRaw": "500000",
+"amountSol": "0.0005",
+"count": 8
+},
+{
+"square": 0,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "420000",
+"amountSol": "0.00042",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 5
+},
+{
+"square": 0,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 5
+},
+{
+"square": 1,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 3
+},
+{
+"square": 2,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 3
+},
+{
+"square": 3,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 4,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 6,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 8,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 9,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 11,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 12,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 13,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 5
+},
+{
+"square": 14,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 15,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 5
+},
+{
+"square": 17,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 18,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 19,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 20,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 21,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 3
+},
+{
+"square": 22,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 5
+},
+{
+"square": 23,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 24,
+"amountRaw": "400000",
+"amountSol": "0.0004",
+"count": 4
+},
+{
+"square": 1,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "350000",
+"amountSol": "0.00035",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "310000",
+"amountSol": "0.00031",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "300000",
+"amountSol": "0.0003",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "295000",
+"amountSol": "0.000295",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "270000",
+"amountSol": "0.00027",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 3
+},
+{
+"square": 6,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "250000",
+"amountSol": "0.00025",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "220251",
+"amountSol": "0.000220251",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "220000",
+"amountSol": "0.00022",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 14
+},
+{
+"square": 3,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 15
+},
+{
+"square": 4,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 15
+},
+{
+"square": 7,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 16
+},
+{
+"square": 8,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 15
+},
+{
+"square": 10,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 14
+},
+{
+"square": 11,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 15
+},
+{
+"square": 13,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 12
+},
+{
+"square": 16,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 12
+},
+{
+"square": 17,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 14
+},
+{
+"square": 18,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 16
+},
+{
+"square": 20,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 13
+},
+{
+"square": 21,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 14
+},
+{
+"square": 22,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 13
+},
+{
+"square": 23,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 11
+},
+{
+"square": 0,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 12
+},
+{
+"square": 1,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 14
+},
+{
+"square": 5,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 13
+},
+{
+"square": 6,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 13
+},
+{
+"square": 9,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 14
+},
+{
+"square": 12,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 12
+},
+{
+"square": 14,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 13
+},
+{
+"square": 19,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 12
+},
+{
+"square": 24,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 16
+},
+{
+"square": 15,
+"amountRaw": "200000",
+"amountSol": "0.0002",
+"count": 11
+},
+{
+"square": 0,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "175000",
+"amountSol": "0.000175",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 5
+},
+{
+"square": 1,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 6,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 8,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 9,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 11,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 13,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 14,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 15,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 5
+},
+{
+"square": 16,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 5
+},
+{
+"square": 17,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 19,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 5
+},
+{
+"square": 20,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 22,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 5
+},
+{
+"square": 23,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 3,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 4,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 12,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 4
+},
+{
+"square": 2,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "150000",
+"amountSol": "0.00015",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "140000",
+"amountSol": "0.00014",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "129999",
+"amountSol": "0.000129999",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "125000",
+"amountSol": "0.000125",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 4,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 6,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 13,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 14,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 16,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "120000",
+"amountSol": "0.00012",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "110000",
+"amountSol": "0.00011",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 44
+},
+{
+"square": 1,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 38
+},
+{
+"square": 3,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 39
+},
+{
+"square": 4,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 40
+},
+{
+"square": 6,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 44
+},
+{
+"square": 7,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 37
+},
+{
+"square": 8,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 38
+},
+{
+"square": 9,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 44
+},
+{
+"square": 11,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 40
+},
+{
+"square": 12,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 44
+},
+{
+"square": 14,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 37
+},
+{
+"square": 16,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 40
+},
+{
+"square": 17,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 41
+},
+{
+"square": 18,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 38
+},
+{
+"square": 19,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 39
+},
+{
+"square": 20,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 37
+},
+{
+"square": 21,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 40
+},
+{
+"square": 22,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 37
+},
+{
+"square": 23,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 40
+},
+{
+"square": 24,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 44
+},
+{
+"square": 2,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 41
+},
+{
+"square": 5,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 38
+},
+{
+"square": 10,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 40
+},
+{
+"square": 13,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 44
+},
+{
+"square": 15,
+"amountRaw": "100000",
+"amountSol": "0.0001",
+"count": 35
+},
+{
+"square": 2,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "90000",
+"amountSol": "0.00009",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "80000",
+"amountSol": "0.00008",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "77700",
+"amountSol": "0.0000777",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "72500",
+"amountSol": "0.0000725",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "69000",
+"amountSol": "0.000069",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "68625",
+"amountSol": "0.000068625",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "67000",
+"amountSol": "0.000067",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "60000",
+"amountSol": "0.00006",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "60000",
+"amountSol": "0.00006",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "60000",
+"amountSol": "0.00006",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "60000",
+"amountSol": "0.00006",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "60000",
+"amountSol": "0.00006",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "55500",
+"amountSol": "0.0000555",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 12
+},
+{
+"square": 1,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 10
+},
+{
+"square": 2,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 11
+},
+{
+"square": 3,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 11
+},
+{
+"square": 4,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 10
+},
+{
+"square": 5,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 10,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 11,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 10
+},
+{
+"square": 12,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 11
+},
+{
+"square": 13,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 8
+},
+{
+"square": 14,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 10
+},
+{
+"square": 19,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 12
+},
+{
+"square": 20,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 12
+},
+{
+"square": 21,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 22,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 10
+},
+{
+"square": 23,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 24,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 11
+},
+{
+"square": 6,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 8
+},
+{
+"square": 7,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 8
+},
+{
+"square": 8,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 9,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 10
+},
+{
+"square": 15,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 16,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 7
+},
+{
+"square": 17,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 18,
+"amountRaw": "50000",
+"amountSol": "0.00005",
+"count": 9
+},
+{
+"square": 6,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "45000",
+"amountSol": "0.000045",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 1,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 2,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 3,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 4,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 5,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 8,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 10,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 12,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 13,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 14,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 16,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 17,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 19,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 20,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 21,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 3
+},
+{
+"square": 22,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 23,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 24,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 4
+},
+{
+"square": 6,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "40000",
+"amountSol": "0.00004",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "36600",
+"amountSol": "0.0000366",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "33000",
+"amountSol": "0.000033",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "32000",
+"amountSol": "0.000032",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 1,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 2,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 4
+},
+{
+"square": 3,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 4,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 6,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 8,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 4
+},
+{
+"square": 9,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 11,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 12,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 13,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 4
+},
+{
+"square": 16,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 4
+},
+{
+"square": 19,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 20,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 21,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 4
+},
+{
+"square": 22,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 3
+},
+{
+"square": 24,
+"amountRaw": "30000",
+"amountSol": "0.00003",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "27770",
+"amountSol": "0.00002777",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "25000",
+"amountSol": "0.000025",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "23900",
+"amountSol": "0.0000239",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "23900",
+"amountSol": "0.0000239",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "23900",
+"amountSol": "0.0000239",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "23900",
+"amountSol": "0.0000239",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "22500",
+"amountSol": "0.0000225",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "22000",
+"amountSol": "0.000022",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 1,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 13
+},
+{
+"square": 2,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 3,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 4,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 14
+},
+{
+"square": 5,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 14
+},
+{
+"square": 6,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 7,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 13
+},
+{
+"square": 8,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 10,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 11,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 12,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 13,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 14
+},
+{
+"square": 14,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 10
+},
+{
+"square": 15,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 16,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 17,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 14
+},
+{
+"square": 18,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 12
+},
+{
+"square": 19,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 14
+},
+{
+"square": 20,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 21,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 10
+},
+{
+"square": 22,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 23,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 9,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 11
+},
+{
+"square": 24,
+"amountRaw": "20000",
+"amountSol": "0.00002",
+"count": 10
+},
+{
+"square": 0,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "18000",
+"amountSol": "0.000018",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "17000",
+"amountSol": "0.000017",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 2,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 3,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 6
+},
+{
+"square": 6,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 7,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 8,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 9,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 12,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 13,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 14,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 15,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 17,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 18,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 3
+},
+{
+"square": 19,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 21,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 6
+},
+{
+"square": 22,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 4,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 10,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 5
+},
+{
+"square": 23,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 24,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 4
+},
+{
+"square": 1,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "16500",
+"amountSol": "0.0000165",
+"count": 3
+},
+{
+"square": 0,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "16000",
+"amountSol": "0.000016",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "15549",
+"amountSol": "0.000015549",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 2,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 4
+},
+{
+"square": 8,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 9,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 12,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 15,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 4
+},
+{
+"square": 16,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 4
+},
+{
+"square": 19,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 20,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 22,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 3
+},
+{
+"square": 24,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "15000",
+"amountSol": "0.000015",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "14000",
+"amountSol": "0.000014",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "13000",
+"amountSol": "0.000013",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "12500",
+"amountSol": "0.0000125",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "12300",
+"amountSol": "0.0000123",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "12100",
+"amountSol": "0.0000121",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "12000",
+"amountSol": "0.000012",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 1,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 2,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 3,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 4,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 5,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 6,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 7,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 8,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 9,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 10,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 11,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 12,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 13,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 14,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 15,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 16,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 17,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 18,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 19,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 20,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 21,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 22,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 23,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 24,
+"amountRaw": "11000",
+"amountSol": "0.000011",
+"count": 4
+},
+{
+"square": 0,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "10100",
+"amountSol": "0.0000101",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 51
+},
+{
+"square": 2,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 54
+},
+{
+"square": 3,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 49
+},
+{
+"square": 5,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 46
+},
+{
+"square": 6,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 47
+},
+{
+"square": 14,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 51
+},
+{
+"square": 16,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 17,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 19,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 46
+},
+{
+"square": 22,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 53
+},
+{
+"square": 0,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 53
+},
+{
+"square": 4,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 7,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 8,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 52
+},
+{
+"square": 10,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 49
+},
+{
+"square": 11,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 48
+},
+{
+"square": 12,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 18,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 52
+},
+{
+"square": 20,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 24,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 51
+},
+{
+"square": 9,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 50
+},
+{
+"square": 13,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 43
+},
+{
+"square": 15,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 48
+},
+{
+"square": 21,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 48
+},
+{
+"square": 23,
+"amountRaw": "10000",
+"amountSol": "0.00001",
+"count": 47
+},
+{
+"square": 0,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "9000",
+"amountSol": "0.000009",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "7000",
+"amountSol": "0.000007",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "7000",
+"amountSol": "0.000007",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "7000",
+"amountSol": "0.000007",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "7000",
+"amountSol": "0.000007",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "7000",
+"amountSol": "0.000007",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "5930",
+"amountSol": "0.00000593",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "5100",
+"amountSol": "0.0000051",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 4,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 20,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 24,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 1,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 2,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 3,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 5,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 4
+},
+{
+"square": 7,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 8,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 9,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 10,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 11,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 12,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 7
+},
+{
+"square": 13,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 15,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 16,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 17,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 19,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 4
+},
+{
+"square": 21,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 6,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 14,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 4
+},
+{
+"square": 18,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 22,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 6
+},
+{
+"square": 23,
+"amountRaw": "5000",
+"amountSol": "0.000005",
+"count": 5
+},
+{
+"square": 0,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "4500",
+"amountSol": "0.0000045",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "4300",
+"amountSol": "0.0000043",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "4000",
+"amountSol": "0.000004",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "3200",
+"amountSol": "0.0000032",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "3000",
+"amountSol": "0.000003",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "2200",
+"amountSol": "0.0000022",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "2000",
+"amountSol": "0.000002",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "1650",
+"amountSol": "0.00000165",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "1500",
+"amountSol": "0.0000015",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "1400",
+"amountSol": "0.0000014",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "1300",
+"amountSol": "0.0000013",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1250",
+"amountSol": "0.00000125",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "1150",
+"amountSol": "0.00000115",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 28
+},
+{
+"square": 1,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 28
+},
+{
+"square": 2,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 30
+},
+{
+"square": 3,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 30
+},
+{
+"square": 4,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 29
+},
+{
+"square": 5,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 26
+},
+{
+"square": 6,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 28
+},
+{
+"square": 7,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 27
+},
+{
+"square": 8,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 27
+},
+{
+"square": 9,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 29
+},
+{
+"square": 10,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 27
+},
+{
+"square": 11,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 31
+},
+{
+"square": 12,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 26
+},
+{
+"square": 13,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 28
+},
+{
+"square": 14,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 30
+},
+{
+"square": 15,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 29
+},
+{
+"square": 16,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 26
+},
+{
+"square": 17,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 29
+},
+{
+"square": 18,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 26
+},
+{
+"square": 19,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 29
+},
+{
+"square": 20,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 31
+},
+{
+"square": 21,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 28
+},
+{
+"square": 22,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 30
+},
+{
+"square": 23,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 27
+},
+{
+"square": 24,
+"amountRaw": "1000",
+"amountSol": "0.000001",
+"count": 29
+},
+{
+"square": 0,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 1,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 2,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 3,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 5,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 6,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 14,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 23,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "700",
+"amountSol": "0.0000007",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 4,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 7,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 16,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 22,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 24,
+"amountRaw": "400",
+"amountSol": "0.0000004",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 8,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 9,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 10,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 11,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 12,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 13,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 15,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 17,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 18,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 19,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 20,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 21,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "300",
+"amountSol": "0.0000003",
+"count": 1
+},
+{
+"square": 0,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 1,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 2,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 3,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 1
+},
+{
+"square": 4,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 5,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 6,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 1
+},
+{
+"square": 7,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 8,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 9,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 10,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 11,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 12,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 13,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 14,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 15,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 1
+},
+{
+"square": 16,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 17,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 18,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 19,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 20,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 21,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 1
+},
+{
+"square": 22,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 23,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 1
+},
+{
+"square": 24,
+"amountRaw": "200",
+"amountSol": "0.0000002",
+"count": 2
+},
+{
+"square": 0,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 1,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 2,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 3,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 4,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 5,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 6,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 20
+},
+{
+"square": 7,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 8,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 9,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 10,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 20
+},
+{
+"square": 11,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 12,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 13,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 14,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 19
+},
+{
+"square": 15,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 17
+},
+{
+"square": 16,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 19
+},
+{
+"square": 17,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 16
+},
+{
+"square": 18,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 19,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 20,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 21,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 22,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 19
+},
+{
+"square": 23,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 18
+},
+{
+"square": 24,
+"amountRaw": "100",
+"amountSol": "0.0000001",
+"count": 19
+},
+{
+"square": 0,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 1,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 2,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 3,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 4,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 5,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 6,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 7,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 8,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 9,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 10,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 11,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 12,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 13,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 14,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 15,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 16,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 17,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 18,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 19,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 20,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 21,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 22,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 23,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 24,
+"amountRaw": "10",
+"amountSol": "0.00000001",
+"count": 3
+},
+{
+"square": 0,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 1,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 2,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 3,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 4,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 5,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 6,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 7,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 8,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 9,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 10,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 11,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 12,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 13,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 14,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 15,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 16,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 17,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 18,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 19,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 20,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 21,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 22,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 23,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+},
+{
+"square": 24,
+"amountRaw": "1",
+"amountSol": "0.000000001",
+"count": 9
+}
+]
+}

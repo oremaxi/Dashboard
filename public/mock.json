@@ -1,0 +1,115 @@
+{
+    "treasury": {
+        "observedAt": "2025-11-18T03:07:08.004Z",
+        "motherlodeFormatted": "13.2"
+    },
+    "round": {
+        "observedAt": "2025-11-18T03:07:49.776Z",
+        "roundId": "56920",
+        "mining": {
+            "startSlot": "380807079",
+            "endSlot": "380807229",
+            "remainingSlots": "49",
+            "status": "active"
+        },
+        "uniqueMiners": "446",
+        "totals": {
+            "deployedSol": "9.561068276",
+            "vaultedSol": "0",
+            "winningsSol": "0"
+        },
+        "perSquare": {
+            "counts": [
+                "329",
+                "319",
+                "314",
+                "327",
+                "324",
+                "311",
+                "325",
+                "318",
+                "323",  
+                "308",
+                "316",
+                "307",
+                "332",
+                "311",
+                "330",
+                "329",
+                "323",
+                "323",
+                "331",
+                "306",
+                "321",
+                "308",
+                "308",
+                "315",
+                "324"
+            ],
+            "deployedSol": [
+                "0.362604013",
+                "0.349906263",
+                "0.405454714",
+                "0.422089462",
+                "0.402217163",
+                "0.417947013",
+                "0.368978362",
+                "0.384455064",
+                "0.402842513",
+                "0.428670463",
+                "0.372392313",
+                "0.357480714",
+                "0.408772313",
+                "0.343184113",
+                "0.402818813",
+                "0.288675313",
+                "0.323596662",
+                "0.392904913",
+                "0.437007014",
+                "0.371254263",
+                "0.457199363",
+                "0.320542212",
+                "0.373205614",
+                "0.357105463",
+                "0.409764163"
+            ]
+        }
+    },
+    "currentSlot": "380807180",
+    "orePrice": {
+        "observedAt": "2025-11-18T03:07:38.558Z",
+        "priceUsdRaw": "226.02270104468133"
+    },
+    "solPrice": {
+        "observedAt": "2025-11-18T03:07:38.558Z",
+        "priceUsdRaw": "132.3515256471499"
+    },
+    "roundResult": {
+        "roundId": "56919",
+        "resultAvailable": true,
+        "status": "ready",
+        "slotHash": "cfd491a6599d78ec06174c0dd3fe91274858039ed6190a85a6eb8fdb0eb8c16d",
+        "rng": "2531799601977061415",
+        "winningSquareIndex": 15,
+        "winningSquareLabel": "#16",
+        "winningSquareDeployedRaw": "701597948",
+        "winningSquareDeployedSol": "0.701597948",
+        "winningSquareCount": "373",
+        "motherlodeHit": false,
+        "motherlodeRaw": "0",
+        "motherlodeFormatted": "0",
+        "topMiner": "SpLiT11111111111111111111111111111111111112",
+        "topMinerRewardRaw": "100000000000",
+        "topMinerRewardFormatted": "1",
+        "numWinners": "373",
+        "totalDeployedRaw": "17011388400",
+        "totalDeployedSol": "17.0113884",
+        "totalVaultedRaw": "1614669254",
+        "totalVaultedSol": "1.614669254",
+        "totalWinningsRaw": "14532023294",
+        "totalWinningsSol": "14.532023294",
+        "resultSource": "roundAccount",
+        "resultPhase": "final",
+        "resultUpdatedAt": "2025-11-18T03:07:08.054Z"
+    }
+}
