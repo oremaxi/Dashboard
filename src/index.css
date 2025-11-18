@@ -1,0 +1,265 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+    /* Neumorphism theme variables */
+    --bg-primary: #1e293b;
+    --bg-secondary: #334155;
+    --bg-tertiary: #475569;
+    --text-primary: #ffffff;
+    --text-secondary: #cbd5e1;
+    --text-tertiary: #94a3b8;
+    --accent-primary: #3b82f6;
+    --accent-secondary: #1d4ed8;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --error: #ef4444;
+    
+    /* Box shadow variables for neumorphism */
+    --shadow-light: 4px 4px 8px #0f172a, -4px -4px 8px #1e293b;
+    --shadow-medium: 8px 8px 16px #0f172a, -8px -8px 16px #1e293b;
+    --shadow-heavy: 16px 16px 32px #0f172a, -16px -16px 32px #1e293b;
+    --shadow-inset-light: inset 2px 2px 4px #0f172a, inset -2px -2px 4px #1e293b;
+    --shadow-inset-medium: inset 4px 4px 8px #0f172a, inset -4px -4px 8px #1e293b;
+    
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%
+  }
+
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%
+  }
+}
+
+/* Custom Neumorphism utilities */
+@layer utilities {
+  .neumorphic {
+    box-shadow: var(--shadow-medium);
+  }
+  
+  .neumorphic-light {
+    box-shadow: var(--shadow-light);
+  }
+  
+  .neumorphic-heavy {
+    box-shadow: var(--shadow-heavy);
+  }
+  
+  .neumorphic-inset {
+    box-shadow: var(--shadow-inset-medium);
+  }
+  
+  .neumorphic-inset-light {
+    box-shadow: var(--shadow-inset-light);
+  }
+  
+  /* Glass morphism utilities */
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Gradient utilities */
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
+  }
+  
+  /* Animation utilities */
+  .pulse-glow {
+    animation: pulse-glow 2s infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.8), 0 0 30px rgba(59, 130, 246, 0.6);
+    }
+  }
+  
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Scrollbar styling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: rgba(51, 65, 85, 0.3);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: rgba(59, 130, 246, 0.6);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: rgba(59, 130, 246, 0.8);
+  }
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--accent-primary);
+  color: white;
+}
+
+::-moz-selection {
+  background: var(--accent-primary);
+  color: white;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+img {
+  object-position: top;
+}
+
+.fixed {
+  position: fixed;
+}
+
+/* Loading animation */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Wallet adapter overrides */
+.wallet-adapter-modal-wrapper {
+  background-color: rgba(30, 41, 59, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
+}
+
+.wallet-adapter-modal-container {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8) !important;
+}
+
+.wallet-adapter-modal-container * {
+  color: white !important;
+}
+
+.wallet-adapter-modal-title {
+  font-weight: 600 !important;
+}
+
+.wallet-adapter-modal-list {
+  margin: 0 !important;
+}
+
+.wallet-adapter-modal-list li {
+  background: rgba(30, 41, 59, 0.8) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
+  border-radius: 12px !important;
+  margin: 8px 0 !important;
+  transition: all 0.2s !important;
+}
+
+.wallet-adapter-modal-list li:hover {
+  background: rgba(59, 130, 246, 0.2) !important;
+  border-color: rgba(59, 130, 246, 0.6) !important;
+  transform: translateY(-1px) !important;
+}
+
+.wallet-adapter-modal-list button {
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
+
+.wallet-adapter-modal-list button:hover {
+  background: transparent !important;
+}
+
+.wallet-adapter-modal-list button svg {
+  display: none !important;
+}
+
+/* Toast styling */
+.Toaster__toast {
+  background: rgba(30, 41, 59, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(59, 130, 246, 0.3) !important;
+  border-radius: 12px !important;
+  color: white !important;
+}

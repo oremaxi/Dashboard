@@ -1,0 +1,384 @@
+import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { Link, useNavigate } from 'react-router-dom';
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/Card';
+import { Button } from '../components/ui/Button';
+import { Input } from '../components/ui/Input';
+import { 
+  HistoryIcon, 
+  GridIcon, 
+  ListIcon, 
+  SearchIcon, 
+  ClockIcon,
+  TrendingUpIcon,
+  ArrowLeftIcon,
+  LoaderIcon,
+  AlertCircleIcon
+} from '../components/ui/Icon';
+import { generateMockMiningRounds, formatSOL } from '../services/oreService';
+import { createOREService, ORERealData } from '../services/oreRealService';
+import { MiningRound } from '../types';
+import { formatDateWithTimezone, formatTimeWithTimezone } from '../components/common/TimezoneSwitcher';
+
+export const HistoricalRounds: React.FC = () => {
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+  const [rounds, setRounds] = useState<MiningRound[]>([]);
+  const [viewMode, setViewMode] = useState<'list' | 'card'>('list');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedRound, setSelectedRound] = useState<MiningRound | null>(null);
+  const [timezone] = useState<'local' | 'utc'>((localStorage.getItem('timezone') as 'local' | 'utc') || 'local');
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [realData, setRealData] = useState<ORERealData | null>(null);
+
+  useEffect(() => {
+    // 加载历史轮次数据
+    const mockRounds = generateMockMiningRounds(20);
+    setRounds(mockRounds);
+  }, []);
+
+  const filteredRounds = rounds.filter(round => 
+    round.roundNumber.toString().includes(searchTerm) ||
+    round.status.includes(searchTerm.toLowerCase())
+  );
+
+  const handleRoundSelect = (round: MiningRound) => {
+    setSelectedRound(round);
+    navigate(`/historical/${round.id}`);
+  };
+
+  const handleBackToList = () => {
+    setSelectedRound(null);
+    navigate('/historical');
+  };
+
+  const getStatusColor = (status: string) => {
+    switch (status) {
+      case 'active':
+        return 'text-green-400 bg-green-500/10 border-green-500/20';
+      case 'completed':
+        return 'text-blue-400 bg-blue-500/10 border-blue-500/20';
+      case 'upcoming':
+        return 'text-yellow-400 bg-yellow-500/10 border-yellow-500/20';
+      default:
+        return 'text-slate-400 bg-slate-500/10 border-slate-500/20';
+    }
+  };
+
+  const getStatusText = (status: string) => {
+    switch (status) {
+      case 'active':
+        return '进行中';
+      case 'completed':
+        return '已完成';
+      case 'upcoming':
+        return '即将开始';
+      default:
+        return status;
+    }
+  };
+
+  if (selectedRound) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          {/* Header */}
+          <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center space-x-4">
+              <Button
+                variant="ghost"
+                onClick={handleBackToList}
+                className="flex items-center space-x-2"
+              >
+                <ArrowLeftIcon size="sm" />
+                <span>{t('historical.backToList')}</span>
+              </Button>
+              <div>
+                <h1 className="text-2xl font-bold text-white">
+                  轮次 #{selectedRound.roundNumber}
+                </h1>
+                <p className="text-sm text-slate-400">
+                  {formatDateWithTimezone(selectedRound.startTime, timezone)} - {formatDateWithTimezone(selectedRound.endTime, timezone)}
+                </p>
+              </div>
+            </div>
+            <div className={`px-3 py-1 rounded-full border text-sm font-medium ${getStatusColor(selectedRound.status)}`}>
+              {getStatusText(selectedRound.status)}
+            </div>
+          </div>
+
+          {/* Round Summary */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+            <Card variant="neumorphic">
+              <CardContent className="p-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-blue-400">
+                    {formatSOL(selectedRound.totalDeployedSOL)}
+                  </div>
+                  <div className="text-sm text-slate-400">{t('dashboard.totalDeployedSOL')}</div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card variant="neumorphic">
+              <CardContent className="p-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-green-400">
+                    {selectedRound.uniqueMiners}
+                  </div>
+                  <div className="text-sm text-slate-400">{t('dashboard.uniqueMiners')}</div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card variant="neumorphic">
+              <CardContent className="p-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-yellow-400">
+                    {selectedRound.bids}
+                  </div>
+                  <div className="text-sm text-slate-400">{t('dashboard.bids')}</div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card variant="neumorphic">
+              <CardContent className="p-4">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-purple-400">
+                    {formatSOL(selectedRound.estimatedCost)}
+                  </div>
+                  <div className="text-sm text-slate-400">{t('dashboard.estimatedCost')}</div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Timeline */}
+          <Card variant="glass" className="mb-6">
+            <CardHeader>
+              <CardTitle className="flex items-center space-x-2">
+                <ClockIcon className="text-blue-400" />
+                <span>{t('historical.timeline')}</span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-4">
+                  <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
+                  <div>
+                    <div className="text-sm font-medium text-white">轮次开始</div>
+                    <div className="text-xs text-slate-400">
+                      {formatTimeWithTimezone(selectedRound.startTime, timezone)} {formatDateWithTimezone(selectedRound.startTime, timezone)}
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                  <div>
+                    <div className="text-sm font-medium text-white">当前进度</div>
+                    <div className="text-xs text-slate-400">
+                      Slot {selectedRound.currentSlot} / {selectedRound.endSlot}
+                    </div>
+                  </div>
+                </div>
+                
+                {selectedRound.status === 'completed' && (
+                  <div className="flex items-center space-x-4">
+                    <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                    <div>
+                      <div className="text-sm font-medium text-white">轮次结束</div>
+                      <div className="text-xs text-slate-400">
+                        {formatTimeWithTimezone(selectedRound.endTime, timezone)} {formatDateWithTimezone(selectedRound.endTime, timezone)}
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+
+          {/* Detailed Statistics */}
+          <Card variant="glass">
+            <CardHeader>
+              <CardTitle className="flex items-center space-x-2">
+                <TrendingUpIcon className="text-blue-400" />
+                <span>{t('historical.summary')}</span>
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="text-sm font-medium text-slate-300 mb-3">交易分布</h4>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-sm text-slate-400">部署交易</span>
+                      <span className="text-sm text-white">{selectedRound.bids}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm text-slate-400">回购金额</span>
+                      <span className="text-sm text-white">{formatSOL(selectedRound.buyback)}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm text-slate-400">预估成本</span>
+                      <span className="text-sm text-white">{formatSOL(selectedRound.estimatedCost)}</span>
+                    </div>
+                  </div>
+                </div>
+                
+                <div>
+                  <h4 className="text-sm font-medium text-slate-300 mb-3">性能指标</h4>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="text-sm text-slate-400">平均每矿工SOL</span>
+                      <span className="text-sm text-white">
+                        {formatSOL(selectedRound.totalDeployedSOL / selectedRound.uniqueMiners)}
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm text-slate-400">轮次持续时间</span>
+                      <span className="text-sm text-white">
+                        {Math.round((selectedRound.endTime - selectedRound.startTime) / 60000)} 分钟
+                      </span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-sm text-slate-400">活跃度</span>
+                      <span className="text-sm text-white">
+                        {((selectedRound.uniqueMiners / selectedRound.bids) * 100).toFixed(1)}%
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        {/* Header */}
+        <div className="flex items-center justify-between mb-6">
+          <div>
+            <h1 className="text-3xl font-bold text-white mb-2">
+              {t('historical.title')}
+            </h1>
+            <p className="text-slate-400">
+              查看历史挖矿轮次数据和统计信息
+            </p>
+          </div>
+          
+          <div className="flex items-center space-x-2">
+            <Button
+              variant={viewMode === 'list' ? 'primary' : 'outline'}
+              size="sm"
+              onClick={() => setViewMode('list')}
+            >
+              <ListIcon size="sm" />
+            </Button>
+            <Button
+              variant={viewMode === 'card' ? 'primary' : 'outline'}
+              size="sm"
+              onClick={() => setViewMode('card')}
+            >
+              <GridIcon size="sm" />
+            </Button>
+          </div>
+        </div>
+
+        {/* Loading State */}
+        {isLoading && rounds.length === 0 ? (
+          <div className="flex items-center justify-center py-12">
+            <div className="text-center">
+              <LoaderIcon size="lg" className="animate-spin text-blue-400 mx-auto mb-4" />
+              <p className="text-slate-400">正在加载历史数据...</p>
+            </div>
+          </div>
+        ) : (
+          <>
+            {/* Search */}
+            <Card variant="glass" className="mb-6">
+              <CardContent className="p-4">
+                <Input
+                  placeholder="搜索轮次ID或状态..."
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  leftIcon={<SearchIcon size="sm" />}
+                  variant="neumorphic"
+                />
+              </CardContent>
+            </Card>
+
+            {/* Rounds List/Card */}
+            <div className={viewMode === 'list' ? 'space-y-4' : 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'}>
+              {filteredRounds.map((round) => (
+                <div key={round.id} onClick={() => handleRoundSelect(round)}>
+                  <Card 
+                    variant="neumorphic" 
+                    className="cursor-pointer hover:scale-105 transition-transform duration-200"
+                  >
+                    <CardHeader>
+                      <div className="flex items-center justify-between">
+                        <CardTitle className="text-lg">
+                          轮次 #{round.roundNumber}
+                        </CardTitle>
+                        <div className={`px-2 py-1 rounded-full border text-xs font-medium ${getStatusColor(round.status)}`}>
+                          {getStatusText(round.status)}
+                        </div>
+                      </div>
+                    </CardHeader>
+                  
+                    <CardContent>
+                      <div className="space-y-3">
+                        <div className="flex justify-between text-sm">
+                          <span className="text-slate-400">总部署SOL</span>
+                          <span className="text-white font-mono">{formatSOL(round.totalDeployedSOL)}</span>
+                        </div>
+                        
+                        <div className="flex justify-between text-sm">
+                          <span className="text-slate-400">独立矿工</span>
+                          <span className="text-white">{round.uniqueMiners}</span>
+                        </div>
+                        
+                        <div className="flex justify-between text-sm">
+                          <span className="text-slate-400">出价数</span>
+                          <span className="text-white">{round.bids}</span>
+                        </div>
+                        
+                        <div className="pt-3 border-t border-slate-700 text-xs text-slate-400">
+                          <div>{formatDateWithTimezone(round.startTime, timezone)}</div>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
+              ))}
+            </div>
+
+            {/* Pagination */}
+            {filteredRounds.length > 0 && (
+              <div className="mt-8 flex justify-center">
+                <div className="flex items-center space-x-2">
+                  <Button variant="outline" size="sm" disabled>
+                    上一页
+                  </Button>
+                  <span className="text-sm text-slate-400 px-4">
+                    1 / {Math.ceil(filteredRounds.length / 10)}
+                  </span>
+                  <Button variant="outline" size="sm" disabled>
+                    下一页
+                  </Button>
+                </div>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  );
+};

@@ -1,0 +1,100 @@
+{
+  "common": {
+    "loading": "Lädt",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "connect": "Verbinden",
+    "disconnect": "Trennen",
+    "retry": "Wiederholen",
+    "close": "Schließen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "view": "Ansicht",
+    "list": "Liste",
+    "card": "Karte",
+    "details": "Details",
+    "copy": "Kopieren",
+    "share": "Teilen"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "historical": "Historische Runden",
+    "strategies": "Strategien",
+    "api": "API Dokumente",
+    "wallet": "Wallet"
+  },
+  "dashboard": {
+    "currentRound": "Aktuelle Runde",
+    "roundId": "Runden-ID",
+    "countdown": "Countdown",
+    "totalDeployedSOL": "Gesamt Bereitgestellte SOL",
+    "uniqueMiners": "Einzigartige Miner",
+    "bids": "Gebote",
+    "buyback": "Rückkauf",
+    "estimatedCost": "Geschätzte Kosten",
+    "gridTitle": "Mining Aktivitäts-Grid",
+    "minersPerCell": "Miner",
+    "deployedSOLPerCell": "Bereitgestellte SOL",
+    "aboveAverage": "Über Durchschnitt",
+    "belowAverage": "Unter Durchschnitt",
+    "selectMultiple": "Klicken für Mehrfachauswahl",
+    "selectedCells": "{{count}} Zellen ausgewählt"
+  },
+  "trading": {
+    "panelTitle": "Trading Panel",
+    "betAmount": "Wettbetrag",
+    "placeBet": "Wette platzieren",
+    "deploy": "Bereitstellen",
+    "currentBalance": "Aktueller Kontostand",
+    "transactionFee": "Transaktionsgebühr",
+    "totalAmount": "Gesamtbetrag",
+    "confirmTransaction": "Transaktion bestätigen",
+    "transactionHistory": "Transaktionsverlauf"
+  },
+  "historical": {
+    "title": "Historische Runden",
+    "viewMode": "Ansichtsmodus",
+    "listView": "Listenansicht",
+    "cardView": "Kartenansicht",
+    "roundDetails": "Rundendetails",
+    "backToList": "Zurück zur Liste",
+    "summary": "Zusammenfassung",
+    "transactions": "Transaktionsverteilung",
+    "timeline": "Zeitachse der Schlüsselereignisse",
+    "winners": "Gewinner",
+    "profitLoss": "Gewinn & Verlust"
+  },
+  "wallet": {
+    "connectWallet": "Wallet verbinden",
+    "connected": "Verbunden",
+    "disconnected": "Nicht verbunden",
+    "balance": "Kontostand",
+    "address": "Adresse",
+    "switchNetwork": "Netzwerk wechseln",
+    "supportedWallets": "Unterstützte Wallets",
+    "installWallet": "Wallet installieren"
+  },
+  "time": {
+    "timezone": "Zeitzone",
+    "localTime": "Lokale Zeit",
+    "utc": "UTC Zeit",
+    "seconds": "Sekunden",
+    "minutes": "Minuten",
+    "hours": "Stunden",
+    "days": "Tage"
+  },
+  "units": {
+    "sol": "SOL",
+    "lamports": "Lamports",
+    "billion": "Milliarden",
+    "million": "Millionen",
+    "thousand": "Tausend",
+    "percent": "%"
+  }
+}

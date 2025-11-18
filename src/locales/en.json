@@ -1,0 +1,100 @@
+{
+  "common": {
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "retry": "Retry",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "list": "List",
+    "card": "Card",
+    "details": "Details",
+    "copy": "Copy",
+    "share": "Share"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "historical": "Historical Rounds",
+    "strategies": "Strategies",
+    "api": "API Docs",
+    "wallet": "Wallet"
+  },
+  "dashboard": {
+    "currentRound": "Current Round",
+    "roundId": "Round ID",
+    "countdown": "Countdown",
+    "totalDeployedSOL": "Total Deployed SOL",
+    "uniqueMiners": "Unique Miners",
+    "bids": "Bids",
+    "buyback": "Buyback",
+    "estimatedCost": "Estimated Cost",
+    "gridTitle": "Mining Activity Grid",
+    "minersPerCell": "Miners",
+    "deployedSOLPerCell": "Deployed SOL",
+    "aboveAverage": "Above Average",
+    "belowAverage": "Below Average",
+    "selectMultiple": "Click to select multiple",
+    "selectedCells": "{{count}} cells selected"
+  },
+  "trading": {
+    "panelTitle": "Trading Panel",
+    "betAmount": "Bet Amount",
+    "placeBet": "Place Bet",
+    "deploy": "Deploy",
+    "currentBalance": "Current Balance",
+    "transactionFee": "Transaction Fee",
+    "totalAmount": "Total Amount",
+    "confirmTransaction": "Confirm Transaction",
+    "transactionHistory": "Transaction History"
+  },
+  "historical": {
+    "title": "Historical Rounds",
+    "viewMode": "View Mode",
+    "listView": "List View",
+    "cardView": "Card View",
+    "roundDetails": "Round Details",
+    "backToList": "Back to List",
+    "summary": "Summary",
+    "transactions": "Transaction Distribution",
+    "timeline": "Key Events Timeline",
+    "winners": "Winners",
+    "profitLoss": "P&L"
+  },
+  "wallet": {
+    "connectWallet": "Connect Wallet",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "balance": "Balance",
+    "address": "Address",
+    "switchNetwork": "Switch Network",
+    "supportedWallets": "Supported Wallets",
+    "installWallet": "Install Wallet"
+  },
+  "time": {
+    "timezone": "Timezone",
+    "localTime": "Local Time",
+    "utc": "UTC Time",
+    "seconds": "seconds",
+    "minutes": "minutes",
+    "hours": "hours",
+    "days": "days"
+  },
+  "units": {
+    "sol": "SOL",
+    "lamports": "Lamports",
+    "billion": "Billion",
+    "million": "Million",
+    "thousand": "Thousand",
+    "percent": "%"
+  }
+}
