@@ -31,21 +31,23 @@ export const Dashboard: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [useRealData, setUseRealData] = useState(true);
 
+  const [initLock, setInitLock] = useState(false);
   // 初始化和定时刷新真实数据
   useEffect(() => {
     loadRealData();
-    
     const interval = setInterval(() => {
       if (!isRefreshing) {
         loadRealData();
       }
-    }, 30000); // 每30秒刷新一次
+    }, 3000); // 每3秒刷新一次
 
     return () => clearInterval(interval);
-  }, [isRefreshing]);
+    
+    // setInitLock(true)
+  }, []);
 
   const loadRealData = async () => {
-    setIsRefreshing(true);
+    setIsRefreshing(true);``
     setError(null);
     
     try {
@@ -76,7 +78,7 @@ export const Dashboard: React.FC = () => {
           status: currentTime < endTime ? 'active' : 'completed',
           miningData : data.miningData
         };
-        console.log("realRound",realRound)
+        // console.log("realRound",realRound)
         setCurrentRound(realRound);
         
         // 基于真实数据生成网格和统计
@@ -206,6 +208,7 @@ export const Dashboard: React.FC = () => {
           <div>
             <CountdownTimer
               endTime={currentRound.endTime}
+              startTime={currentRound.startTime}
               currentSlot={currentRound.currentSlot}
               endSlot={currentRound.endSlot}
               timezone={timezone}

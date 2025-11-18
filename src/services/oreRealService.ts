@@ -95,13 +95,16 @@ export class ORERealService {
    */
   async getRealOREData(): Promise<any> {
     try {
-      const res = await fetch('/mock.json');
+      const res = await fetch('https://api.oremax.xyz/api/gmore-state');
       const json = await res.json();
-      const resBid = await fetch('/mockBid.json');
-      const jsonBid = await resBid.json();
 
-      console.log("mock.json:", json,jsonBid);
-      
+      // console.log("mock.json:", json);
+      // const startTime = (new Date(json.round.observedAt).getTime())
+      // -(
+      //   (Number(json.round.mining.endSlot) - Number(json.round.mining.startSlot))-(Number(json.round.mining.remainingSlots))*400
+      // )
+      const endTime = (new Date(json.round.observedAt).getTime())+(Number(json.round.mining.remainingSlots)*400)
+      const startTime = endTime -  (Number(json.round.mining.endSlot) - Number(json.round.mining.startSlot))*400
       return {
         tokenInfo: {
           mint: ORE_CONSTANTS.TOKEN_MINT,
@@ -113,17 +116,17 @@ export class ORERealService {
         miningData:{
           currentRound: {
             roundNumber:json.round.roundId,
-            startTime: (new Date(json.round.observedAt).getTime())-(Number(json.round.mining.remainingSlots)*400),
-            endTime: (new Date(json.round.observedAt).getTime())+(Number(json.round.mining.remainingSlots)*400),
+            startTime: startTime,
+            endTime: endTime,
             remainingTime: Math.max((Number(json.round.mining.remainingSlots)*400)),
             totalDeployedSOL: json.round.totals.deployedSol, // 这里需要从链上交易日志计算
-            activeMiners: jsonBid.uniqueMiners,
+            activeMiners: json.round.uniqueMiners,
             claimedRewards: 0
           },
           statistics:{
             totalRewards: json.round.totals.deployedSol,
-            activeMiners: jsonBid.uniqueMiners,
-            totalTransactions: jsonBid.uniqueMiners,
+            activeMiners: json.round.uniqueMiners,
+            totalTransactions:json.round.uniqueMiners,
             avgReward: json.round.totals.deployedSol/25
           },
           counts:json.round.perSquare.counts,

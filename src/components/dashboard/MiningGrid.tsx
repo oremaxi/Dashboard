@@ -94,7 +94,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
       loadRealGridData();
       
       // 每30秒自动刷新
-      const interval = setInterval(loadRealGridData, 30000);
+      const interval = setInterval(loadRealGridData, 1000);
       return () => clearInterval(interval);
     }
   }, [enableRealData]);
@@ -274,7 +274,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
               {/* SOL 部署量 */}
               <div className="mt-1 text-center">
                 <div className="text-xs text-slate-400">
-                  {cell.deployedSOL.toFixed(1)}
+                  {cell.deployedSOL.toFixed(4)}
                 </div>
                 <div className="text-xs text-slate-500">
                   SOL

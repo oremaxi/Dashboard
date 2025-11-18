@@ -7,6 +7,7 @@ import { formatTimeWithTimezone, formatDateWithTimezone } from '../common/Timezo
 
 interface CountdownProps {
   endTime: number;
+  startTime:number;
   currentSlot: number;
   endSlot: number;
   timezone: 'local' | 'utc';
@@ -23,6 +24,7 @@ interface TimeRemaining {
 
 export const CountdownTimer: React.FC<CountdownProps> = ({
   endTime,
+  startTime,
   currentSlot,
   endSlot,
   timezone,
@@ -42,7 +44,7 @@ export const CountdownTimer: React.FC<CountdownProps> = ({
   // 计算倒计时和进度
   const calculateTimeRemaining = () => {
     const now = Date.now();
-    const totalDuration = endTime - (now - 300000); // 假设开始时间比现在早5分钟
+    const totalDuration = endTime - startTime; // 假设开始时间比现在早5分钟
     const remaining = Math.max(0, endTime - now);
     const progress = totalDuration > 0 ? ((totalDuration - remaining) / totalDuration) * 100 : 100;
 
@@ -57,7 +59,13 @@ export const CountdownTimer: React.FC<CountdownProps> = ({
       isExpired: remaining === 0,
       progress: Math.min(Math.max(progress, 0), 100)
     };
-
+    console.log(result,
+      totalDuration,
+      remaining,
+      endTime,
+      startTime,
+      endTime-startTime
+    )
     setTimeRemaining(result);
     onTimeUpdate?.(now);
   };
