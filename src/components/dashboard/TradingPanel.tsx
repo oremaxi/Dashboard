@@ -252,6 +252,7 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
         <Button
           onClick={handleDeploy}
           disabled={
+            true||
             !connected || 
             !betAmount || 
             parseFloat(betAmount) <= 0 || 
@@ -262,7 +263,10 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
           className="w-full"
           size="lg"
         >
-          {t('trading.deploy')}
+          {
+            "Coming Soon..."
+          // t('trading.deploy')
+          }
         </Button>
 
         {/* 提示信息 */}
