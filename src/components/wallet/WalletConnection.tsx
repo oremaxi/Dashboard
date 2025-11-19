@@ -46,13 +46,6 @@ export const WalletConnection: React.FC = () => {
           <div className="w-3 h-3 bg-green-500 rounded-full border-2 border-slate-800 animate-pulse" />
         </div>
       )}
-      
-      {/* 连接状态提示 */}
-      {connected && balance !== undefined && (
-        <div className="mt-2 text-xs text-slate-400 text-center">
-          {formatSOLBalance(balance / 1000000000)} {/* lamports to SOL */}
-        </div>
-      )}
     </div>
   );
 };

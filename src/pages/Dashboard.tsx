@@ -260,7 +260,14 @@ export const Dashboard: React.FC = () => {
                 <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
                   <span className="text-xs">智能内存池</span>
                 </Button>
-                <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
+                <Button variant="outline" className="h-16 flex flex-col items-center space-y-1"
+                onClick={
+                  ()=>
+                  {
+                    window.location.href="/historical"
+                  }
+                }
+                >
                   <span className="text-xs">历史轮次</span>
                 </Button>
                 {/* <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
