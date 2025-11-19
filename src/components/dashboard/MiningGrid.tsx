@@ -24,7 +24,7 @@ const generateRealGridData = (realData: any): GridCell[] => {
   let i = 0;
   for (let row = 0; row < 5; row++) {
     for (let col = 0; col < 5; col++) {
-      const cellId = `${row}-${col}`;
+      const cellId = i.toString();//`${row}-${col}`;
       const cellIndex = row * 5 + col;
       
       // 基于真实数据模拟每个区块的矿工分布

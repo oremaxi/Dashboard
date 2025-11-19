@@ -131,10 +131,6 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
     //   trend: { value: 3.1, isPositive: true }
     // }
   ];
-  console.log(
-    stats,
-    lastStats
-  )
   return (
     <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-4">
       {cards.map((card, index) => (

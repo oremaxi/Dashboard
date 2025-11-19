@@ -239,6 +239,7 @@ export const Dashboard: React.FC = () => {
             <div className="sticky top-24">
               <TradingPanel
                 onDeploy={handleDeploy}
+                currentRoundId={currentRound.roundNumber}
                 selectedCells={selectedCells}
               />
             </div>

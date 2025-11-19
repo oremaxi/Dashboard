@@ -13,12 +13,14 @@ import toast from 'react-hot-toast';
 
 interface TradingPanelProps {
   onDeploy?: (amount: number) => void;
+  currentRoundId:any,
   selectedCells?: string[];
   className?: string;
 }
 
 export const TradingPanel: React.FC<TradingPanelProps> = ({
   onDeploy,
+  currentRoundId,
   selectedCells = [],
   className
 }) => {
@@ -87,8 +89,34 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
     try {
       // 显示加载状态
       const loadingToast = toast.loading('正在创建ORE部署交易...');
-      
+      console.log("selectedCells",selectedCells)
       // 创建真实的ORE部署交易
+      let squares = [];
+      for(let i =0 ; i < 25  ;i++)
+      {
+        if(selectedCells.includes(i.toString()))
+        {
+          squares.push(true);
+        }else{
+          squares.push(false);
+        }
+      }
+      const res = await fetch("https://api.oremax.xyz/api/deploy", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          "squares": squares,  // Array of 25 booleans
+          "authority": publicKey.toBase58(),     // Base58 encoded Solana address
+          "round_id": Number(currentRoundId),                      // Round ID
+          "amount": Number((amount*1e9).toFixed(0))                     // Amount in lamports
+        })
+      });
+
+      const json = await res.json();
+
+      console.log("IX ::",json)
       const transaction = await oreService.createDeployTransaction(
         { publicKey, signTransaction } as any,
         amount
@@ -252,7 +280,6 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
         <Button
           onClick={handleDeploy}
           disabled={
-            true||
             !connected || 
             !betAmount || 
             parseFloat(betAmount) <= 0 || 
@@ -264,8 +291,8 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
           size="lg"
         >
           {
-            "Coming Soon..."
-          // t('trading.deploy')
+            // "Coming Soon..."
+          t('trading.deploy')
           }
         </Button>
 

@@ -23,10 +23,10 @@ import { formatDateWithTimezone, formatTimeWithTimezone } from '../components/co
 export const HistoricalRounds: React.FC = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
-  const [rounds, setRounds] = useState<MiningRound[]>([]);
+  const [rounds, setRounds] = useState<any[]>([]);
   const [viewMode, setViewMode] = useState<'list' | 'card'>('list');
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedRound, setSelectedRound] = useState<MiningRound | null>(null);
+  const [selectedRound, setSelectedRound] = useState<any | null>(null);
   const [timezone] = useState<'local' | 'utc'>((localStorage.getItem('timezone') as 'local' | 'utc') || 'local');
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -34,10 +34,44 @@ export const HistoricalRounds: React.FC = () => {
 
   useEffect(() => {
     // 加载历史轮次数据
-    const mockRounds = generateMockMiningRounds(20);
-    setRounds(mockRounds);
+    init();
   }, []);
 
+  const init =async ()=>
+  {
+    const oreService = createOREService();
+    const data = await oreService.getRealOREData();
+    const nowId = data.miningData.currentRound.roundNumber;
+    const res = await fetch('https://api.oremax.xyz/api/history/'+nowId);
+    const json = await res.json();
+    console.log("his :: ",json)
+    const rounds = json?.rounds;
+    let r = []
+    if(rounds)
+    {
+      for(let i of rounds)
+      {
+        r.push({
+          id: i?.round_id,
+          roundNumber:i?.round_id,
+          startSlot: 0, // 假设400ms per slot
+          endSlot:0,
+          currentSlot: 0,
+          startTime:Date.now(),
+          endTime:Date.now(),
+          totalDeployedSOL:i?.totalDeployedSol,
+          uniqueMiners:i?.numWinners,
+          bids:0,
+          buyback:0,
+          estimatedCost:0,
+          status:'completed',
+          raw:i
+        });
+      }
+    setRounds(r)
+    }
+
+  }
   const filteredRounds = rounds.filter(round => 
     round.roundNumber.toString().includes(searchTerm) ||
     round.status.includes(searchTerm.toLowerCase())
@@ -99,12 +133,12 @@ export const HistoricalRounds: React.FC = () => {
                   轮次 #{selectedRound.roundNumber}
                 </h1>
                 <p className="text-sm text-slate-400">
-                  {formatDateWithTimezone(selectedRound.startTime, timezone)} - {formatDateWithTimezone(selectedRound.endTime, timezone)}
+                  {(new Date(selectedRound.raw.resultUpdatedAt)).toString()}
                 </p>
               </div>
             </div>
             <div className={`px-3 py-1 rounded-full border text-sm font-medium ${getStatusColor(selectedRound.status)}`}>
-              {getStatusText(selectedRound.status)}
+              {getStatusText("completed")}
             </div>
           </div>
 
@@ -127,7 +161,7 @@ export const HistoricalRounds: React.FC = () => {
                   <div className="text-2xl font-bold text-green-400">
                     {selectedRound.uniqueMiners}
                   </div>
-                  <div className="text-sm text-slate-400">{t('dashboard.uniqueMiners')}</div>
+                  <div className="text-sm text-slate-400">{"胜利矿工数"}</div>
                 </div>
               </CardContent>
             </Card>
@@ -136,9 +170,9 @@ export const HistoricalRounds: React.FC = () => {
               <CardContent className="p-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-yellow-400">
-                    {selectedRound.bids}
+                    {selectedRound.raw.totalVaultedSol}
                   </div>
-                  <div className="text-sm text-slate-400">{t('dashboard.bids')}</div>
+                  <div className="text-sm text-slate-400">{"项目方手续费"}</div>
                 </div>
               </CardContent>
             </Card>
@@ -147,16 +181,16 @@ export const HistoricalRounds: React.FC = () => {
               <CardContent className="p-4">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-purple-400">
-                    {formatSOL(selectedRound.estimatedCost)}
+                    {selectedRound.raw.winningSquareLabel}
                   </div>
-                  <div className="text-sm text-slate-400">{t('dashboard.estimatedCost')}</div>
+                  <div className="text-sm text-slate-400">{"胜利块"}</div>
                 </div>
               </CardContent>
             </Card>
           </div>
 
           {/* Timeline */}
-          <Card variant="glass" className="mb-6">
+          {/* <Card variant="glass" className="mb-6">
             <CardHeader>
               <CardTitle className="flex items-center space-x-2">
                 <ClockIcon className="text-blue-400" />
@@ -198,7 +232,7 @@ export const HistoricalRounds: React.FC = () => {
                 )}
               </div>
             </CardContent>
-          </Card>
+          </Card> */}
 
           {/* Detailed Statistics */}
           <Card variant="glass">
@@ -214,16 +248,16 @@ export const HistoricalRounds: React.FC = () => {
                   <h4 className="text-sm font-medium text-slate-300 mb-3">交易分布</h4>
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <span className="text-sm text-slate-400">部署交易</span>
-                      <span className="text-sm text-white">{selectedRound.bids}</span>
+                      <span className="text-sm text-slate-400">胜利块部署</span>
+                      <span className="text-sm text-white">{formatSOL(selectedRound.raw.winningSquareDeployedSol)}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-slate-400">回购金额</span>
-                      <span className="text-sm text-white">{formatSOL(selectedRound.buyback)}</span>
+                      <span className="text-sm text-slate-400">胜利地址数</span>
+                      <span className="text-sm text-white">{selectedRound.raw.winningSquareCount}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-slate-400">预估成本</span>
-                      <span className="text-sm text-white">{formatSOL(selectedRound.estimatedCost)}</span>
+                      <span className="text-sm text-slate-400">平均地址投注大小</span>
+                      <span className="text-sm text-white">{formatSOL(selectedRound.raw.winningSquareDeployedSol/selectedRound.raw.winningSquareCount)}</span>
                     </div>
                   </div>
                 </div>
@@ -232,21 +266,21 @@ export const HistoricalRounds: React.FC = () => {
                   <h4 className="text-sm font-medium text-slate-300 mb-3">性能指标</h4>
                   <div className="space-y-2">
                     <div className="flex justify-between">
-                      <span className="text-sm text-slate-400">平均每矿工SOL</span>
+                      <span className="text-sm text-slate-400">平均胜利矿工收益</span>
                       <span className="text-sm text-white">
-                        {formatSOL(selectedRound.totalDeployedSOL / selectedRound.uniqueMiners)}
+                        {formatSOL(selectedRound.raw.totalWinningsSol / selectedRound.uniqueMiners)}
                       </span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-sm text-slate-400">轮次持续时间</span>
                       <span className="text-sm text-white">
-                        {Math.round((selectedRound.endTime - selectedRound.startTime) / 60000)} 分钟
+                        {60} s
                       </span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-sm text-slate-400">活跃度</span>
+                      <span className="text-sm text-slate-400">母块ORE产出</span>
                       <span className="text-sm text-white">
-                        {((selectedRound.uniqueMiners / selectedRound.bids) * 100).toFixed(1)}%
+                        {(Number(selectedRound.raw.motherlodeFormatted)).toFixed(3)} ORE
                       </span>
                     </div>
                   </div>
@@ -341,17 +375,20 @@ export const HistoricalRounds: React.FC = () => {
                         </div>
                         
                         <div className="flex justify-between text-sm">
-                          <span className="text-slate-400">独立矿工</span>
+                          <span className="text-slate-400">胜利矿工数</span>
                           <span className="text-white">{round.uniqueMiners}</span>
                         </div>
                         
                         <div className="flex justify-between text-sm">
-                          <span className="text-slate-400">出价数</span>
-                          <span className="text-white">{round.bids}</span>
+                          <span className="text-slate-400">手续费</span>
+                          <span className="text-white">{formatSOL(round.raw.totalVaultedSol)}</span>
                         </div>
-                        
+                        <div className="flex justify-between text-sm">
+                          <span className="text-slate-400">母块ORE产出</span>
+                          <span className="text-white">{(Number(round.raw.motherlodeFormatted)).toFixed(3)} ORE</span>
+                        </div>
                         <div className="pt-3 border-t border-slate-700 text-xs text-slate-400">
-                          <div>{formatDateWithTimezone(round.startTime, timezone)}</div>
+                          <div>{(new Date(round.raw.resultUpdatedAt)).toLocaleString()}</div>
                         </div>
                       </div>
                     </CardContent>
