@@ -59,13 +59,6 @@ export const CountdownTimer: React.FC<CountdownProps> = ({
       isExpired: remaining === 0,
       progress: Math.min(Math.max(progress, 0), 100)
     };
-    console.log(result,
-      totalDuration,
-      remaining,
-      endTime,
-      startTime,
-      endTime-startTime
-    )
     setTimeRemaining(result);
     onTimeUpdate?.(now);
   };
@@ -112,7 +105,7 @@ export const CountdownTimer: React.FC<CountdownProps> = ({
         {/* 时间显示 */}
         <div className="text-center mb-4">
           <div className="flex items-center justify-center space-x-4 mb-2">
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="text-3xl font-bold text-white">
                 {timeRemaining.hours.toString().padStart(2, '0')}
               </div>
@@ -125,7 +118,7 @@ export const CountdownTimer: React.FC<CountdownProps> = ({
               </div>
               <div className="text-xs text-slate-400">{t('time.minutes')}</div>
             </div>
-            <div className="text-2xl text-slate-400">:</div>
+            <div className="text-2xl text-slate-400">:</div> */}
             <div className="text-center">
               <div className="text-3xl font-bold text-white">
                 {timeRemaining.seconds.toString().padStart(2, '0')}

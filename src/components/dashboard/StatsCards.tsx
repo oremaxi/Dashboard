@@ -88,10 +88,17 @@ interface MiningStatsProps {
     buyback: number;
     estimatedCost: number;
   };
+  lastStats: {
+    totalDeployedSOL: number;
+    uniqueMiners: number;
+    bids: number;
+    buyback: number;
+    estimatedCost: number;
+  };
   loading?: boolean;
 }
 
-export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats, loading = false }) => {
+export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
   const { t } = useTranslation();
 
   const cards = [
@@ -100,14 +107,14 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats, loading = 
       value: formatSOL(stats.totalDeployedSOL),
       icon: <SolIcon size="md" className="text-blue-400" />,
       color: 'blue' as const,
-      trend: { value: 12.5, isPositive: true }
+      trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
     },
     {
       title: t('dashboard.uniqueMiners'),
       value: stats.uniqueMiners,
       icon: <TrendingUp size="md" className="text-green-400" />,
       color: 'green' as const,
-      trend: { value: 8.3, isPositive: true }
+      trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }
     },
     // {
     //   title: t('dashboard.buyback'),
@@ -124,7 +131,10 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats, loading = 
     //   trend: { value: 3.1, isPositive: true }
     // }
   ];
-
+  console.log(
+    stats,
+    lastStats
+  )
   return (
     <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-4">
       {cards.map((card, index) => (

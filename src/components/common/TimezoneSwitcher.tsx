@@ -27,7 +27,7 @@ export const TimezoneSwitcher: React.FC<TimezoneSwitcherProps> = ({
         <SunIcon size="sm" />
         <span className="hidden sm:inline text-xs">{t('time.localTime')}</span>
       </Button>
-      <Button
+      {/* <Button
         variant={value === 'utc' ? 'primary' : 'ghost'}
         size="sm"
         onClick={() => onChange('utc')}
@@ -35,7 +35,7 @@ export const TimezoneSwitcher: React.FC<TimezoneSwitcherProps> = ({
       >
         <ClockIcon size="sm" />
         <span className="hidden sm:inline text-xs">UTC</span>
-      </Button>
+      </Button> */}
     </div>
   );
 };

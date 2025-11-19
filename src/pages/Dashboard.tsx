@@ -21,8 +21,10 @@ export const Dashboard: React.FC = () => {
   const { t } = useTranslation();
   const [realData, setRealData] = useState<ORERealData | null>(null);
   const [currentRound, setCurrentRound] = useState(generateMockMiningRounds(1)[0]);
+  const [lastCurrentRound, setLastCurrentRound] = useState(currentRound);
   const [gridCells, setGridCells] = useState(generateGridData(currentRound));
   const [miningStats, setMiningStats] = useState(generateMiningStats([currentRound]));
+  const [lastMiningStats, setLastMiningStats] = useState(generateMiningStats([currentRound]));
   const [selectedCells, setSelectedCells] = useState<string[]>([]);
   const [timezone] = useState<'local' | 'utc'>((localStorage.getItem('timezone') as 'local' | 'utc') || 'local');
   const [lastUpdate, setLastUpdate] = useState(Date.now());
@@ -45,11 +47,12 @@ export const Dashboard: React.FC = () => {
     
     // setInitLock(true)
   }, []);
-
+  let lstMiningState = miningStats;
   const loadRealData = async () => {
     setIsRefreshing(true);``
     setError(null);
-    
+    setLastCurrentRound(currentRound)
+    // setLastMiningStats(miningStats)
     try {
       const oreService = createOREService();
       const data = await oreService.getRealOREData();
@@ -85,7 +88,9 @@ export const Dashboard: React.FC = () => {
         const newGridCells = generateGridData(realRound);
         const newStats = generateMiningStats([realRound]);
         setGridCells(newGridCells);
+        setLastMiningStats(lstMiningState);
         setMiningStats(newStats);
+        lstMiningState = newStats;
       }
       
       setLastUpdate(Date.now());
@@ -203,7 +208,7 @@ export const Dashboard: React.FC = () => {
         {/* Top Section: Stats and Countdown */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-6">
           <div className="lg:col-span-3">
-            <MiningStatsCards stats={miningStats} />
+            <MiningStatsCards stats={miningStats} lastStats={lastMiningStats} />
           </div>
           <div>
             <CountdownTimer

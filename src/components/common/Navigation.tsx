@@ -14,12 +14,12 @@ const navItems = [
     icon: GridIcon,
     exact: true
   },
-  // {
-  //   path: '/historical',
-  //   label: 'navigation.historical',
-  //   icon: HistoryIcon,
-  //   exact: true
-  // },
+  {
+    path: '/historical',
+    label: 'navigation.historical',
+    icon: HistoryIcon,
+    exact: true
+  },
   // {
   //   path: '/strategies',
   //   label: 'navigation.strategies',
