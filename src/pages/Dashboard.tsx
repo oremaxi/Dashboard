@@ -132,7 +132,7 @@ export const Dashboard: React.FC = () => {
     // 这里可以添加实际的部署逻辑
     
     // 模拟交易成功后的反馈
-    alert(`成功部署 ${amount} SOL 到 ${selectedCells.length} 个区块！`);
+    // alert(`成功部署 ${amount} SOL 到 ${selectedCells.length} 个区块！`);
   };
 
   const countdown = calculateCountdown(currentRound.endTime);

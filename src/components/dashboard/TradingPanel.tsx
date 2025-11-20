@@ -8,7 +8,7 @@ import { WalletIcon, DollarSign, TrendingUp, AlertIcon } from '../ui/Icon';
 import { calculateTransactionFee, formatSOLBalance } from '../../services/walletService';
 import { formatSOL } from '../../services/oreService';
 import { createOREService, ORERealService } from '../../services/oreRealService';
-import { Transaction } from '@solana/web3.js';
+import { Connection, PublicKey, Transaction } from '@solana/web3.js';
 import toast from 'react-hot-toast';
 
 interface TradingPanelProps {
@@ -24,13 +24,13 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
   selectedCells = [],
   className
 }) => {
+  const connection = new Connection("https://mainnet.helius-rpc.com/?api-key=f9f12ad2-d8f8-4d00-b5d0-25a02bd01ad3","confirmed")
   const { t } = useTranslation();
   const { connected, publicKey, signTransaction } = useWallet();
   const [betAmount, setBetAmount] = useState<string>('');
   const [isDeploying, setIsDeploying] = useState(false);
   const [error, setError] = useState<string>('');
   const [oreService] = useState(() => createOREService());
-
   // 获取钱包余额
   const [balance, setBalance] = useState<number>(0);
   const [isLoadingBalance, setIsLoadingBalance] = useState(false);
@@ -117,6 +117,38 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
       const json = await res.json();
 
       console.log("IX ::",json)
+      let signature;
+      try {
+        // Get instruction from API
+        const instructionData = json
+
+        // Build transaction
+        const transaction = new Transaction();
+        transaction.add({
+          programId: new PublicKey(instructionData.programId),
+          keys: instructionData.accounts.map(acc => ({
+            pubkey: new PublicKey(acc.pubkey),
+            isSigner: acc.isSigner,
+            isWritable: acc.isWritable,
+          })),
+          data: Buffer.from(instructionData.data, 'base64'),
+        });
+
+        // Get recent blockhash
+        const { blockhash } = await connection.getLatestBlockhash();
+        transaction.recentBlockhash = blockhash;
+        transaction.feePayer = publicKey;
+
+        // Sign and send transaction
+        signature = await signTransaction(transaction);
+        console.log("hash :: ",signature)
+
+        // return signature;
+      } catch (error) {
+        console.error('Deploy failed:', error);
+        throw error;
+      }
+
       const transaction = await oreService.createDeployTransaction(
         { publicKey, signTransaction } as any,
         amount
@@ -127,23 +159,23 @@ export const TradingPanel: React.FC<TradingPanelProps> = ({
       toast.loading('请在钱包中签名交易...', { id: 'signing' });
 
       // 使用钱包签名交易
-      const signedTransaction = await signTransaction(transaction);
+      // const signedTransaction = await signTransaction(transaction);
 
       // 发送交易
       toast.dismiss('signing');
       toast.loading('正在发送交易到区块链...', { id: 'sending' });
 
       // 发送已签名的交易
-      const signature = await oreService['connection'].sendRawTransaction(
-        signedTransaction.serialize(),
-        { skipPreflight: true, maxRetries: 3 }
-      );
+      // const signature = await oreService['connection'].sendRawTransaction(
+      //   signedTransaction.serialize(),
+      //   { skipPreflight: true, maxRetries: 3 }
+      // );
 
       toast.dismiss('sending');
       
       // 交易成功，显示结果
       toast.success(
-        `交易成功提交！交易签名: ${signature.slice(0, 8)}...`,
+        `交易成功提交!`,
         { duration: 8000 }
       );
 

@@ -456,7 +456,7 @@ export class ORERealService {
 
 // 工厂函数：创建ORE服务实例
 export function createOREService(): ORERealService {
-  const rpcEndpoint = 'https://api.mainnet-beta.solana.com';
+  const rpcEndpoint = "https://mainnet.helius-rpc.com/?api-key=f9f12ad2-d8f8-4d00-b5d0-25a02bd01ad3";
   const connection = new Connection(rpcEndpoint, 'confirmed');
   return new ORERealService(connection);
 }
