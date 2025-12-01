@@ -52,30 +52,12 @@ export const StatsCard: React.FC<StatsCardProps> = ({
                   <h3 className="text-2xl font-bold text-white">
                     {typeof value === 'number' ? formatNumber(value) : value}
                   </h3>
-                  {trend && (
-                    <div className={`flex items-center space-x-1 text-xs ${
-                      trend.isPositive ? 'text-green-400' : 'text-red-400'
-                    }`}>
-                      <TrendingUp size="sm" className={trend.isPositive ? 'rotate-0' : 'rotate-180'} />
-                      <span>{Math.abs(trend.value)}%</span>
-                    </div>
-                  )}
                 </div>
-                {subtitle && (
-                  <p className="text-xs text-slate-400 mt-1">{subtitle}</p>
-                )}
               </>
             )}
           </div>
-          
-          <div className={`p-3 rounded-xl ${colorVariants[color]}`}>
-            {icon}
-          </div>
         </div>
       </CardContent>
-      
-      {/* 装饰性背景 */}
-      <div className={`absolute top-0 right-0 w-20 h-20 rounded-full opacity-10 ${color === 'blue' ? 'bg-blue-500' : color === 'green' ? 'bg-green-500' : color === 'yellow' ? 'bg-yellow-500' : color === 'purple' ? 'bg-purple-500' : 'bg-red-500'}`} />
     </Card>
   );
 };
@@ -98,41 +80,27 @@ interface MiningStatsProps {
   loading?: boolean;
 }
 
-export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
+export const MiningStatsCountDownCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
   const { t } = useTranslation();
 
   const cards = [
     {
-      title: t('dashboard.totalDeployedSOL'),
-      value: formatSOL(stats.totalDeployedSOL),
+      title: t('dashboard.miningCost'),
+      value: formatSOL(0.1921),
       icon: <SolIcon size="md" className="text-blue-400" />,
       color: 'blue' as const,
       trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
     },
     {
-      title: t('dashboard.uniqueMiners'),
+      title: t('dashboard.ev'),
       value: stats.uniqueMiners,
       icon: <TrendingUp size="md" className="text-green-400" />,
       color: 'green' as const,
       trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }
     },
-    {
-      title: t('dashboard.motherBlock'),
-      value: `123 ORE`,
-      icon: <DollarSign size="md" className="text-purple-400" />,
-      color: 'purple' as const,
-      trend: { value: 5.2, isPositive: false }
-    },
-    {
-      title: t('dashboard.motherBlockInterval'),
-      value: "1234 SLOT",
-      icon: <TrendingUp size="md" className="text-red-400" />,
-      color: 'red' as const,
-      trend: { value: 3.1, isPositive: true }
-    }
   ];
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-2">
       {cards.map((card, index) => (
         <StatsCard
           key={index}

@@ -44,7 +44,12 @@
     "aboveAverage": "Above Average",
     "belowAverage": "Below Average",
     "selectMultiple": "Click to select multiple",
-    "selectedCells": "{{count}} cells selected"
+    "selectedCells": "{{count}} cells selected",
+    "motherBlock": "Motherlode",
+    "motherBlockInterval": "Previous Motherlode Interval",
+    "miningCost":"Mining Cost",
+    "ev":"EV Culcuate"
+
   },
   "trading": {
     "panelTitle": "Trading Panel",

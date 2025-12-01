@@ -92,10 +92,8 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
   useEffect(() => {
     if (enableRealData) {
       loadRealGridData();
-      
-      // 每30秒自动刷新
-      const interval = setInterval(loadRealGridData, 1000);
-      return () => clearInterval(interval);
+      // const interval = setInterval(loadRealGridData, 1000);
+      // return () => clearInterval(interval);
     }
   }, [enableRealData]);
 

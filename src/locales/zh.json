@@ -44,7 +44,11 @@
     "aboveAverage": "高于均值",
     "belowAverage": "低于均值",
     "selectMultiple": "点击多选",
-    "selectedCells": "已选择 {{count}} 个区块"
+    "selectedCells": "已选择 {{count}} 个区块",
+    "motherBlock":"母矿",
+    "motherBlockInterval":"上一轮母块间隔",
+    "miningCost":"生产成本",
+    "ev":"EV计算"
   },
   "trading": {
     "panelTitle": "交易面板",

@@ -16,6 +16,7 @@ import {
 import { createOREService, ORERealData } from '../services/oreRealService';
 import { GridIcon, RefreshIcon, AlertCircleIcon, LoaderIcon } from '../components/ui/Icon';
 import { MiningRound } from '../types';
+import { MiningStatsCountDownCards, StatsCardCountDown } from '@/components/dashboard/StatsCardsCountDown';
 
 export const Dashboard: React.FC = () => {
   const { t } = useTranslation();
@@ -37,13 +38,13 @@ export const Dashboard: React.FC = () => {
   // 初始化和定时刷新真实数据
   useEffect(() => {
     loadRealData();
-    const interval = setInterval(() => {
-      if (!isRefreshing) {
-        loadRealData();
-      }
-    }, 3000); // 每3秒刷新一次
+    // const interval = setInterval(() => {
+    //   if (!isRefreshing) {
+    //     loadRealData();
+    //   }
+    // }, 3000);
 
-    return () => clearInterval(interval);
+    // return () => clearInterval(interval);
     
     // setInitLock(true)
   }, []);
@@ -164,17 +165,6 @@ export const Dashboard: React.FC = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            {/* 连接状态指示器 */}
-            {/* <div className="flex items-center space-x-2 px-3 py-1 bg-slate-800 rounded-lg">
-              <div className={`w-2 h-2 rounded-full ${
-                connectionStatus.color === 'green' ? 'bg-green-400 animate-pulse' :
-                connectionStatus.color === 'yellow' ? 'bg-yellow-400 animate-pulse' :
-                'bg-red-400'
-              }`}></div>
-              <span className="text-xs text-slate-300">{connectionStatus.text}</span>
-              {isLoadingRealData && <LoaderIcon size="sm" className="animate-spin" />}
-            </div> */}
-
             <Button
               onClick={refreshData}
               isLoading={isRefreshing}
@@ -187,38 +177,13 @@ export const Dashboard: React.FC = () => {
           </div>
         </div>
 
-        {/* 错误警告 */}
-        {/* {error && (
-          <div className="mb-6">
-            <Card variant="glass" className="border-yellow-500/20">
-              <CardContent className="p-4">
-                <div className="flex items-start space-x-3">
-                  <AlertCircleIcon size="md" className="text-yellow-400 mt-0.5" />
-                  <div>
-                    <h3 className="text-yellow-400 font-medium">数据获取警告</h3>
-                    <p className="text-slate-300 text-sm mt-1">{error}</p>
-                    <p className="text-slate-400 text-xs mt-1">当前显示的是模拟数据，实际链上数据可能有所不同。</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        )} */}
-
         {/* Top Section: Stats and Countdown */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-6">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-6 mb-6">
           <div className="lg:col-span-3">
             <MiningStatsCards stats={miningStats} lastStats={lastMiningStats} />
           </div>
           <div>
-            <CountdownTimer
-              endTime={currentRound.endTime}
-              startTime={currentRound.startTime}
-              currentSlot={currentRound.currentSlot}
-              endSlot={currentRound.endSlot}
-              timezone={timezone}
-              onTimeUpdate={() => {}}
-            />
+
           </div>
         </div>
 
@@ -236,6 +201,15 @@ export const Dashboard: React.FC = () => {
 
           {/* Trading Panel */}
           <div className="xl:col-span-1">
+            <CountdownTimer
+              endTime={currentRound.endTime}
+              startTime={currentRound.startTime}
+              currentSlot={currentRound.currentSlot}
+              endSlot={currentRound.endSlot}
+              timezone={timezone}
+              onTimeUpdate={() => {}}
+            />
+            <MiningStatsCountDownCards stats={miningStats} lastStats={lastMiningStats}/>
             <div className="sticky top-24">
               <TradingPanel
                 onDeploy={handleDeploy}
@@ -247,39 +221,6 @@ export const Dashboard: React.FC = () => {
         </div>
 
         {/* Quick Actions */}
-        <div className="mt-8">
-          <Card variant="glass">
-            <CardHeader>
-              <CardTitle className="flex items-center space-x-2">
-                <GridIcon className="text-blue-400" />
-                <span>快速导航</span>
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
-                <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
-                  <span className="text-xs">智能内存池</span>
-                </Button>
-                <Button variant="outline" className="h-16 flex flex-col items-center space-y-1"
-                onClick={
-                  ()=>
-                  {
-                    window.location.href="/historical"
-                  }
-                }
-                >
-                  <span className="text-xs">历史轮次</span>
-                </Button>
-                {/* <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
-                  <span className="text-xs">策略指南</span>
-                </Button>
-                <Button variant="outline" className="h-16 flex flex-col items-center space-y-1">
-                  <span className="text-xs">API 文档</span>
-                </Button> */}
-              </div>
-            </CardContent>
-          </Card>
-        </div>
 
         {/* 系统状态 */}
         <div className="mt-6 text-center">
