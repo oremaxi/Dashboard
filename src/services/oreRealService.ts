@@ -90,6 +90,37 @@ export class ORERealService {
     this.tokenMint = new PublicKey(ORE_CONSTANTS.TOKEN_MINT);
   }
 
+
+  /**
+   * 获取SOLANA PRICE
+   */
+
+async getSolPriceByJupiter(): Promise<any> {
+  const url =
+    "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&amount=100000000&slippageBps=50&restrictIntermediateTokens=true";
+
+  const res = await fetch(url);
+  const json = await res.json();
+
+  const usdt = Number(json.outAmount) / 1e6; // 1 SOL → USDT 的输出
+  return usdt;
+}
+async getOREPriceByJupiter(): Promise<any> {
+  const url =
+    "https://lite-api.jup.ag/swap/v1/quote?inputMint=oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp&outputMint=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&amount=100000000000&slippageBps=50&restrictIntermediateTokens=true";
+
+  const res = await fetch(url);
+  const json = await res.json();
+
+  const usdt = Number(json.outAmount) / 1e6; // 1 SOL → USDT 的输出
+  return usdt;
+}
+
+
+  /**
+   * 获取ORE PRICE
+   */
+
   /**
    * 获取实时ORE数据
    */
@@ -158,6 +189,10 @@ export class ORERealService {
           dSlot,
           endTime,
           startTime
+        },
+        motherlode:{
+          motherlode:json.round.motherlode,
+          treasuary:json.treasury.motherlode,
         }
       };
 

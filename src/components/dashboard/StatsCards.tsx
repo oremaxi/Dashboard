@@ -68,14 +68,14 @@ export const StatsCard: React.FC<StatsCardProps> = ({
             )}
           </div>
           
-          <div className={`p-3 rounded-xl ${colorVariants[color]}`}>
+          {/* <div className={`p-3 rounded-xl ${colorVariants[color]}`}>
             {icon}
-          </div>
+          </div> */}
         </div>
       </CardContent>
       
       {/* 装饰性背景 */}
-      <div className={`absolute top-0 right-0 w-20 h-20 rounded-full opacity-10 ${color === 'blue' ? 'bg-blue-500' : color === 'green' ? 'bg-green-500' : color === 'yellow' ? 'bg-yellow-500' : color === 'purple' ? 'bg-purple-500' : 'bg-red-500'}`} />
+      {/* <div className={`absolute top-0 right-0 w-20 h-20 rounded-full opacity-10 ${color === 'blue' ? 'bg-blue-500' : color === 'green' ? 'bg-green-500' : color === 'yellow' ? 'bg-yellow-500' : color === 'purple' ? 'bg-purple-500' : 'bg-red-500'}`} /> */}
     </Card>
   );
 };
@@ -87,6 +87,7 @@ interface MiningStatsProps {
     bids: number;
     buyback: number;
     estimatedCost: number;
+    motherlode:number
   };
   lastStats: {
     totalDeployedSOL: number;
@@ -94,13 +95,14 @@ interface MiningStatsProps {
     bids: number;
     buyback: number;
     estimatedCost: number;
+    motherlode:number
   };
   loading?: boolean;
 }
 
 export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
   const { t } = useTranslation();
-
+  console.log(stats)
   const cards = [
     {
       title: t('dashboard.totalDeployedSOL'),
@@ -118,14 +120,14 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
     },
     {
       title: t('dashboard.motherBlock'),
-      value: `123 ORE`,
+      value: `${Number((stats.motherlode/1e11).toFixed(3))}`,
       icon: <DollarSign size="md" className="text-purple-400" />,
       color: 'purple' as const,
-      trend: { value: 5.2, isPositive: false }
+      trend: { value: 0, isPositive: false }
     },
     {
       title: t('dashboard.motherBlockInterval'),
-      value: "1234 SLOT",
+      value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))}`,
       icon: <TrendingUp size="md" className="text-red-400" />,
       color: 'red' as const,
       trend: { value: 3.1, isPositive: true }

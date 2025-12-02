@@ -80,11 +80,12 @@ export const Dashboard: React.FC = () => {
           buyback: Math.random() * 1000 + 500, // 模拟
           estimatedCost: Math.random() * 500 + 200, // 模拟
           status: currentTime < endTime ? 'active' : 'completed',
-          miningData : data.miningData
+          miningData : data.miningData,
+          raw:data
         };
         // console.log("realRound",realRound)
         setCurrentRound(realRound);
-        
+        // console.log(realRound)
         // 基于真实数据生成网格和统计
         const newGridCells = generateGridData(realRound);
         const newStats = generateMiningStats([realRound]);
