@@ -15,9 +15,11 @@ interface MiningGridProps {
   enableRealData?: boolean;
 }
 
+type CellLevel = 'farAbove' | 'above' | 'below' | 'farBelow' | 'normal';
+
 // 生成真实的5x5网格数据
-const generateRealGridData = (realData: any): GridCell[] => {
-  const cells: GridCell[] = [];
+const generateRealGridData = (realData: any): any[] => {
+  const cells: any[] = [];
   const totalMiners = realData.miningData.currentRound.activeMiners || 0;
   const totalDeployed = realData.miningData.currentRound.totalDeployedSOL || 0;
   const averagePerCell = totalDeployed / 25; // 5x5 = 25 cells
@@ -30,11 +32,15 @@ const generateRealGridData = (realData: any): GridCell[] => {
       // 基于真实数据模拟每个区块的矿工分布
       // 使用算法生成有机的分布模式
       const miners =  realData?.miningData ? Number(realData.miningData.counts[i]) : 0;
-      const deployedSOL = realData?.miningData ?  Number(realData.miningData.sols[i]) :0;
+      const deployedSOL = realData?.miningData ?  Number(realData.miningData.sols[i])/1e9 :0;
       const isAboveAverage = deployedSOL > averagePerCell;
-      
+      const totalDuration = realData.clock.endTime - realData.clock.startTime;
+      const remaining = Math.max(0, realData.clock.endTime - Date.now());
+      // const progress = realData.clock.endSlot > realData.clock.nowSlot ? (realData.clock.dStartSlot / realData.clock.dSlot)* 100 : 100;
+      const progress = totalDuration > 0 ? ((totalDuration - remaining) / totalDuration) * 100 : 100;
       cells.push({
         id: cellId,
+        progress,
         row,
         col,
         miners,
@@ -60,10 +66,52 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
 }) => {
   const { t } = useTranslation();
   const [selectedCells, setSelectedCells] = useState<Set<string>>(new Set());
-  const [cells, setCells] = useState<GridCell[]>(initialCells);
+  const [cells, setCells] = useState<any[]>(initialCells);
   const [realData, setRealData] = useState<ORERealData | null>(null);
   const [isLoadingRealData, setIsLoadingRealData] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // 全局控制是否允许选择
+  const [isSelectionEnabled, setIsSelectionEnabled] = useState(true);
+
+  // 用当前 cells 计算部署均值（用于远高于/高于/低于/远低于）
+  const totalDeployedSOL = cells.reduce((sum, cell) => sum + cell.deployedSOL, 0);
+  const averageDeployedSOL = cells.length ? totalDeployedSOL / cells.length : 0;
+
+  const getCellLevel = (cell: GridCell): CellLevel => {
+    if (!averageDeployedSOL || !isFinite(averageDeployedSOL)) return 'normal';
+    const ratio = cell.deployedSOL / averageDeployedSOL;
+
+    if (ratio >= 1.1) return 'farAbove';   // 远高于均值
+    if (ratio >= 1.0) return 'above';      // 高于均值
+    if (ratio <= 0.9) return 'farBelow';   // 远低于均值
+    if (ratio < 1.0) return 'below';       // 低于均值
+    return 'normal';
+  };
+
+  // 颜色样式：四挡色块 + 选中态
+  const getCellColorClasses = (cell: GridCell, level: CellLevel, isSelected: boolean) => {
+    if (isSelected) {
+      // 选中时高亮 + 渐变，背景主色保持一致系
+      return 'bg-gradient-to-br from-cyan-500 to-blue-600 border-cyan-300';
+    }
+
+    switch (level) {
+      case 'farAbove':
+        // 远高于均值：亮绿色偏青
+        return 'bg-emerald-500/30 border-emerald-300 hover:bg-emerald-500/40 hover:border-emerald-200';
+      case 'above':
+        // 高于均值：稍浅绿色
+        return 'bg-emerald-500/15 border-emerald-400 hover:bg-emerald-500/25 hover:border-emerald-300';
+      case 'below':
+        // 低于均值：偏橙色
+        return 'bg-amber-500/15 border-amber-400 hover:bg-amber-500/25 hover:border-amber-300';
+      case 'farBelow':
+        // 远低于均值：偏红色
+        return 'bg-rose-500/25 border-rose-500 hover:bg-rose-500/35 hover:border-rose-400';
+      default:
+        return 'bg-slate-600/20 border-slate-500/50 hover:bg-slate-600/30 hover:border-slate-500';
+    }
+  };
 
   // 加载真实网格数据
   const loadRealGridData = async () => {
@@ -76,7 +124,13 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
       const oreService = createOREService();
       const data = await oreService.getRealOREData();
       setRealData(data);
-      
+      const remaining = Math.max(0, data.clock.endTime - Date.now());
+      if(remaining)
+      {
+        setIsSelectionEnabled(true)
+      }else{
+        setIsSelectionEnabled(false)
+      }
       const realCells = generateRealGridData(data);
       setCells(realCells);
     } catch (err) {
@@ -92,12 +146,15 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
   useEffect(() => {
     if (enableRealData) {
       loadRealGridData();
-      // const interval = setInterval(loadRealGridData, 1000);
-      // return () => clearInterval(interval);
+      const interval = setInterval(loadRealGridData, 1000);
+      return () => clearInterval(interval);
     }
   }, [enableRealData]);
 
   const handleCellClick = useCallback((cellId: string) => {
+    // 选择被全局锁定时直接返回
+    if (!isSelectionEnabled) return;
+
     const newSelected = new Set(selectedCells);
     
     if (newSelected.has(cellId)) {
@@ -115,9 +172,10 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
     if (onMultipleSelect) {
       onMultipleSelect(Array.from(newSelected));
     }
-  }, [selectedCells, onCellToggle, onMultipleSelect]);
+  }, [selectedCells, onCellToggle, onMultipleSelect, isSelectionEnabled]);
 
   const handleSelectAll = useCallback(() => {
+    if (!isSelectionEnabled) return;
     const allCellIds = cells.map(cell => cell.id);
     const newSelected = new Set(allCellIds);
     setSelectedCells(newSelected);
@@ -125,36 +183,29 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
     if (onMultipleSelect) {
       onMultipleSelect(allCellIds);
     }
-  }, [cells, onMultipleSelect]);
+  }, [cells, onMultipleSelect, isSelectionEnabled]);
 
   const handleClearSelection = useCallback(() => {
+    if (!isSelectionEnabled) return;
     setSelectedCells(new Set());
     
     if (onMultipleSelect) {
       onMultipleSelect([]);
     }
-  }, [onMultipleSelect]);
-
-  // 计算颜色强度
-  const getCellColor = (cell: GridCell) => {
-    const baseColor = cell.isAboveAverage ? '#3b82f6' : '#64748b'; // blue or slate
-    const intensity = cell.colorIntensity;
-    
-    if (cell.isSelected) {
-      return 'bg-gradient-to-br from-blue-500 to-blue-600 border-blue-400';
-    }
-    
-    return cn(
-      'transition-all duration-300',
-      cell.isAboveAverage 
-        ? 'bg-blue-500/20 border-blue-500/50 hover:bg-blue-500/30 hover:border-blue-500' 
-        : 'bg-slate-600/20 border-slate-500/50 hover:bg-slate-600/30 hover:border-slate-500'
-    );
-  };
+  }, [onMultipleSelect, isSelectionEnabled]);
 
   // 获取单元格的悬停文本
   const getCellTooltip = (cell: GridCell) => {
-    return `${t('dashboard.minersPerCell')}: ${cell.miners}\n${t('dashboard.deployedSOLPerCell')}: ${cell.deployedSOL.toFixed(2)} SOL\n${cell.isAboveAverage ? t('dashboard.aboveAverage') : t('dashboard.belowAverage')}`;
+    const level = getCellLevel(cell);
+    const levelTextMap: Record<CellLevel, string> = {
+      farAbove: '远高于均值',
+      above: '高于均值',
+      below: '低于均值',
+      farBelow: '远低于均值',
+      normal: cell.isAboveAverage ? t('dashboard.aboveAverage') : t('dashboard.belowAverage')
+    };
+
+    return `${t('dashboard.minersPerCell')}: ${cell.miners}\n${t('dashboard.deployedSOLPerCell')}: ${cell.deployedSOL.toFixed(2)} SOL\n${levelTextMap[level]}`;
   };
 
   return (
@@ -203,7 +254,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
               variant="outline"
               size="sm"
               onClick={handleClearSelection}
-              disabled={selectedCells.size === 0}
+              disabled={selectedCells.size === 0 || !isSelectionEnabled}
             >
               清除选择
             </Button>
@@ -211,8 +262,18 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
               variant="outline"
               size="sm"
               onClick={handleSelectAll}
+              disabled={!isSelectionEnabled}
             >
               全选
+            </Button>
+            {/* 全局选择开关 */}
+            <Button
+              variant="outline"
+              size="sm"
+              // onClick={() => setIsSelectionEnabled(prev => !prev)}
+              className="flex items-center space-x-1"
+            >
+              <span>{isSelectionEnabled ? '🔓 进行中' : '🔒 已锁定'}</span>
             </Button>
           </div>
         </div>
@@ -224,16 +285,24 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
           </div>
         )}
         
-        <div className="flex items-center space-x-4 text-xs text-slate-400">
+        <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mt-2">
           <div className="flex items-center space-x-1">
-            <div className="w-3 h-3 bg-blue-500/50 border border-blue-500 rounded"></div>
-            <span>{t('dashboard.aboveAverage')}</span>
+            <div className="w-3 h-3 rounded bg-emerald-400/80 border border-emerald-300"></div>
+            <span>远高于均值</span>
           </div>
           <div className="flex items-center space-x-1">
-            <div className="w-3 h-3 bg-slate-600/50 border border-slate-500 rounded"></div>
-            <span>{t('dashboard.belowAverage')}</span>
+            <div className="w-3 h-3 rounded bg-emerald-500/40 border border-emerald-400"></div>
+            <span>高于均值</span>
           </div>
           <div className="flex items-center space-x-1">
+            <div className="w-3 h-3 rounded bg-amber-400/60 border border-amber-400"></div>
+            <span>低于均值</span>
+          </div>
+          <div className="flex items-center space-x-1">
+            <div className="w-3 h-3 rounded bg-rose-500/70 border border-rose-500"></div>
+            <span>远低于均值</span>
+          </div>
+          <div className="flex items-center space-x-1 ml-auto">
             <InfoIcon size="xs" />
             <span>{t('dashboard.selectMultiple')}</span>
           </div>
@@ -242,50 +311,77 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
       
       <CardContent>
         <div className="grid grid-cols-5 gap-2 max-w-2xl">
-          {cells.map((cell) => (
-            <div
-              key={cell.id}
-              onClick={() => handleCellClick(cell.id)}
-              className={cn(
-                'relative aspect-square rounded-lg border-2 cursor-pointer transition-all duration-200',
-                'hover:scale-105 hover:shadow-lg',
-                'flex flex-col items-center justify-center p-2',
-                getCellColor(cell)
-              )}
-              title={getCellTooltip(cell)}
-            >
-              {/* 选择指示器 */}
-              {selectedCells.has(cell.id) && (
-                <div className="absolute top-1 right-1 w-2 h-2 bg-white rounded-full" />
-              )}
-              
-              {/* 主要数据 */}
-              <div className="text-center">
-                <div className="text-xs font-bold text-white">
-                  {cell.miners}
+          {cells.map((cell) => {
+            const isSelected = selectedCells.has(cell.id);
+            const level = getCellLevel(cell);
+
+            return (
+              <div
+                key={cell.id}
+                onClick={() => handleCellClick(cell.id)}
+                className={cn(
+                  'relative aspect-square rounded-lg border-2 transition-all duration-200',
+                  'flex flex-col items-center justify-center p-2 overflow-hidden',
+                  isSelectionEnabled
+                    ? 'cursor-pointer hover:scale-105 hover:shadow-lg'
+                    : 'cursor-not-allowed opacity-60',
+                  getCellColorClasses(cell, level, isSelected),
+                  isSelected && 'scale-105 shadow-xl ring-2 ring-cyan-300'
+                )}
+                title={getCellTooltip(cell)}
+              >
+                {/* 选中高光层 */}
+                {isSelected && (
+                  <div className="pointer-events-none absolute inset-0 rounded-lg bg-white/10 mix-blend-screen" />
+                )}
+
+                {/* 禁用锁层 */}
+                {!isSelectionEnabled && (
+                  <div className="pointer-events-none absolute inset-0 rounded-lg bg-black/40 flex items-center justify-center text-2xl">
+                    <span role="img" aria-label="locked">🔒</span>
+                  </div>
+                )}
+
+                {/* 选择指示器 */}
+                {isSelected && (
+                  <div className="absolute top-1 right-1 w-2.5 h-2.5 bg-white rounded-full shadow" />
+                )}
+                
+                {/* 主要数据 */}
+                <div className="relative text-center z-10">
+                  <div className="text-xs font-bold text-white">
+                    {cell.miners}
+                  </div>
+                  <div className="text-xs text-slate-200">
+                    矿工
+                  </div>
                 </div>
-                <div className="text-xs text-slate-300">
-                  矿工
+                
+                {/* SOL 部署量 */}
+                <div className="relative mt-1 text-center z-10">
+                  <div className="text-xs text-slate-100">
+                    {cell.deployedSOL.toFixed(4)}
+                  </div>
+                  <div className="text-xs text-slate-300">
+                    SOL
+                  </div>
                 </div>
+                
+                {/* 状态色块条：四挡强度可视化 */}
+                <div
+                  className={cn(
+                    'absolute bottom-1 left-1 right-1 h-1.5 rounded-full z-10',
+                    level === 'farAbove' && 'bg-emerald-300',
+                    level === 'above' && 'bg-emerald-500',
+                    level === 'below' && 'bg-amber-400',
+                    level === 'farBelow' && 'bg-rose-500',
+                    level === 'normal' && 'bg-slate-400'
+                  )}
+                  style={{ width: `${cell.progress}%` }}
+                />
               </div>
-              
-              {/* SOL 部署量 */}
-              <div className="mt-1 text-center">
-                <div className="text-xs text-slate-400">
-                  {cell.deployedSOL.toFixed(4)}
-                </div>
-                <div className="text-xs text-slate-500">
-                  SOL
-                </div>
-              </div>
-              
-              {/* 状态指示器 */}
-              <div className={cn(
-                'absolute bottom-1 left-1 w-1.5 h-1.5 rounded-full',
-                cell.isAboveAverage ? 'bg-blue-400' : 'bg-slate-400'
-              )} />
-            </div>
-          ))}
+            );
+          })}
         </div>
         
         {/* 统计信息 */}

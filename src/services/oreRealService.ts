@@ -95,7 +95,7 @@ export class ORERealService {
    */
   async getRealOREData(): Promise<any> {
     try {
-      const res = await fetch('https://api.oremax.xyz/api/gmore-state');
+      const res = await fetch('https://api.oremax.xyz/api/data');
       const json = await res.json();
 
       // console.log("mock.json:", json);
@@ -103,8 +103,19 @@ export class ORERealService {
       // -(
       //   (Number(json.round.mining.endSlot) - Number(json.round.mining.startSlot))-(Number(json.round.mining.remainingSlots))*400
       // )
-      const endTime = (new Date(json.round.observedAt).getTime())+(Number(json.round.mining.remainingSlots)*400)
-      const startTime = endTime -  (Number(json.round.mining.endSlot) - Number(json.round.mining.startSlot))*400
+      const nowSlot = json.clock.slot;
+      const nowTime = json.clock.unix_timestamp*1000;
+      const dEndSlot = Math.abs(nowSlot-json.board.end_slot)
+      const dStartSlot = Math.abs(nowSlot-json.board.start_slot)
+      const dSlot = Math.abs(json.board.end_slot-json.board.start_slot)
+      const endTime = nowTime + dEndSlot*400;
+      const startTime = nowTime - dStartSlot*400;
+      const totalSol = json.round.total_deployed/1e9
+      let miners = 0;
+      for(let i of json.round.count)
+      {
+        miners+=i;
+      }
       return {
         tokenInfo: {
           mint: ORE_CONSTANTS.TOKEN_MINT,
@@ -115,27 +126,38 @@ export class ORERealService {
         },
         miningData:{
           currentRound: {
-            roundNumber:json.round.roundId,
+            roundNumber:json.round.id,
             startTime: startTime,
             endTime: endTime,
-            remainingTime: Math.max((Number(json.round.mining.remainingSlots)*400)),
-            totalDeployedSOL: json.round.totals.deployedSol, // 这里需要从链上交易日志计算
-            activeMiners: json.round.uniqueMiners,
+            remainingTime: Math.max((dEndSlot*400)),
+            totalDeployedSOL: totalSol, // 这里需要从链上交易日志计算
+            activeMiners: miners,
             claimedRewards: 0
           },
           statistics:{
-            totalRewards: json.round.totals.deployedSol,
-            activeMiners: json.round.uniqueMiners,
-            totalTransactions:json.round.uniqueMiners,
-            avgReward: json.round.totals.deployedSol/25
+            totalRewards: totalSol,
+            activeMiners: miners,
+            totalTransactions:miners,
+            avgReward: totalSol/25
           },
-          counts:json.round.perSquare.counts,
-          sols:json.round.perSquare.deployedSol
+          counts:json.round.count,
+          sols:json.round.deployed
         },
         realTimeData: {
           lastBlockTime: Date.now(),
-          slot:json.round.mining.startSlot,
+          slot:json.board.start_slot,
           connectionHealth: true
+        },
+        clock:{
+          nowSlot,
+          nowTime,
+          endSlot:json.board.end_slot,
+          startSlot:json.board.start_slot,
+          dEndSlot,
+          dStartSlot,
+          dSlot,
+          endTime,
+          startTime
         }
       };
 

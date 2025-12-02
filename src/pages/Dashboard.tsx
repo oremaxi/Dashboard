@@ -38,13 +38,13 @@ export const Dashboard: React.FC = () => {
   // 初始化和定时刷新真实数据
   useEffect(() => {
     loadRealData();
-    // const interval = setInterval(() => {
-    //   if (!isRefreshing) {
-    //     loadRealData();
-    //   }
-    // }, 3000);
+    const interval = setInterval(() => {
+      if (!isRefreshing) {
+        loadRealData();
+      }
+    }, 3000);
 
-    // return () => clearInterval(interval);
+    return () => clearInterval(interval);
     
     // setInitLock(true)
   }, []);
