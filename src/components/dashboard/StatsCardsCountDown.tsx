@@ -69,6 +69,8 @@ interface MiningStatsProps {
     bids: number;
     buyback: number;
     estimatedCost: number;
+    cost: number;
+    ev:number;
   };
   lastStats: {
     totalDeployedSOL: number;
@@ -76,24 +78,26 @@ interface MiningStatsProps {
     bids: number;
     buyback: number;
     estimatedCost: number;
+    cost: number;
+    ev:number;
   };
   loading?: boolean;
 }
 
 export const MiningStatsCountDownCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
   const { t } = useTranslation();
-
+  console.log(stats.ev)
   const cards = [
     {
       title: t('dashboard.miningCost'),
-      value: formatSOL(0.1921),
+      value: `${(stats.cost).toFixed(1)}$`,
       icon: <SolIcon size="md" className="text-blue-400" />,
       color: 'blue' as const,
       trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
     },
     {
       title: t('dashboard.ev'),
-      value: stats.uniqueMiners,
+      value: `${(stats.ev).toFixed(3)}`,
       icon: <TrendingUp size="md" className="text-green-400" />,
       color: 'green' as const,
       trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }

@@ -86,7 +86,7 @@ export function generateGridData(round: any): GridCell[] {
 // 生成挖矿统计数据
 export function generateMiningStats(rounds: any[]): any {
   const latestRound = rounds[0];
-  console.log(latestRound)
+  // console.log(latestRound)
   return {
     totalDeployedSOL: latestRound.totalDeployedSOL,
     uniqueMiners: latestRound.uniqueMiners,
@@ -94,7 +94,9 @@ export function generateMiningStats(rounds: any[]): any {
     buyback: latestRound.buyback,
     estimatedCost: latestRound.estimatedCost,
     averageDeployedSOL: rounds.reduce((sum, round) => sum + round.totalDeployedSOL, 0) / rounds.length,
-    motherlode:latestRound?.raw?latestRound.raw.motherlode.treasuary:0
+    motherlode:latestRound?.raw?latestRound.raw.motherlode.treasuary:0,
+    cost:latestRound?.raw?latestRound.raw.motherlode.cost:0,
+    ev:latestRound?.raw?latestRound.raw.motherlode.ev:0,
   };
 }
 

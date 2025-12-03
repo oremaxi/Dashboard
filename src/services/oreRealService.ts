@@ -84,12 +84,25 @@ export class ORERealService {
   private programId: PublicKey;
   private tokenMint: PublicKey;
   
+  public solPrice:number;
+  public orePrice:number;
+
   constructor(connection: Connection) {
     this.connection = connection;
     this.programId = new PublicKey(ORE_CONSTANTS.PROGRAM_ID);
     this.tokenMint = new PublicKey(ORE_CONSTANTS.TOKEN_MINT);
   }
+  sleep(ms: number): Promise<void> {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
 
+  async init():Promise<any> {
+    console.log("run init 1")
+    this.solPrice = await this.getSolPriceByJupiter();
+    await this.sleep(500);
+    this.orePrice = await this.getOREPriceByJupiter();
+    console.log(this.solPrice,this.orePrice)
+  }
 
   /**
    * 获取SOLANA PRICE
@@ -97,7 +110,7 @@ export class ORERealService {
 
 async getSolPriceByJupiter(): Promise<any> {
   const url =
-    "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&amount=100000000&slippageBps=50&restrictIntermediateTokens=true";
+    "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&amount=1000000000&slippageBps=50&restrictIntermediateTokens=true";
 
   const res = await fetch(url);
   const json = await res.json();
@@ -105,6 +118,10 @@ async getSolPriceByJupiter(): Promise<any> {
   const usdt = Number(json.outAmount) / 1e6; // 1 SOL → USDT 的输出
   return usdt;
 }
+  /**
+   * 获取ORE PRICE
+   */
+
 async getOREPriceByJupiter(): Promise<any> {
   const url =
     "https://lite-api.jup.ag/swap/v1/quote?inputMint=oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp&outputMint=Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB&amount=100000000000&slippageBps=50&restrictIntermediateTokens=true";
@@ -118,17 +135,13 @@ async getOREPriceByJupiter(): Promise<any> {
 
 
   /**
-   * 获取ORE PRICE
-   */
-
-  /**
    * 获取实时ORE数据
    */
   async getRealOREData(): Promise<any> {
     try {
       const res = await fetch('https://api.oremax.xyz/api/data');
       const json = await res.json();
-
+      // console.log(this.solPrice,this.orePrice)
       // console.log("mock.json:", json);
       // const startTime = (new Date(json.round.observedAt).getTime())
       // -(
@@ -147,6 +160,10 @@ async getOREPriceByJupiter(): Promise<any> {
       {
         miners+=i;
       }
+      const motherlode = json.treasury.motherlode;
+      const ev = 0.1*totalSol / (1+(motherlode/(1e11*625)));
+      const cost = (0.11 * totalSol * this?.solPrice?this.solPrice:0) / 1.2
+      // console.log(ev,cost)
       return {
         tokenInfo: {
           mint: ORE_CONSTANTS.TOKEN_MINT,
@@ -193,6 +210,8 @@ async getOREPriceByJupiter(): Promise<any> {
         motherlode:{
           motherlode:json.round.motherlode,
           treasuary:json.treasury.motherlode,
+          ev,
+          cost
         }
       };
 

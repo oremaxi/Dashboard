@@ -37,25 +37,30 @@ export const Dashboard: React.FC = () => {
   const [initLock, setInitLock] = useState(false);
   // 初始化和定时刷新真实数据
   useEffect(() => {
-    loadRealData();
-    const interval = setInterval(() => {
-      if (!isRefreshing) {
-        loadRealData();
-      }
-    }, 3000);
+    const oreService = createOREService();
+    const run = async () => {
+      await oreService.init();
+      console.log("run init 2")
+      await loadRealData(oreService);
+      
+      const interval = setInterval(async () => {
+        if (!isRefreshing) {
+          await loadRealData(oreService);
+        }
+      }, 3000);
 
-    return () => clearInterval(interval);
-    
-    // setInitLock(true)
+      return () => clearInterval(interval);
+    };
+
+    run();
   }, []);
   let lstMiningState = miningStats;
-  const loadRealData = async () => {
+  const loadRealData = async (oreService:any) => {
     setIsRefreshing(true);``
     setError(null);
     setLastCurrentRound(currentRound)
     // setLastMiningStats(miningStats)
     try {
-      const oreService = createOREService();
       const data = await oreService.getRealOREData();
       setRealData(data);
       

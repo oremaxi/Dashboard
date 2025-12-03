@@ -102,7 +102,7 @@ interface MiningStatsProps {
 
 export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
   const { t } = useTranslation();
-  console.log(stats)
+  // console.log(stats)
   const cards = [
     {
       title: t('dashboard.totalDeployedSOL'),
@@ -123,14 +123,14 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
       value: `${Number((stats.motherlode/1e11).toFixed(3))}`,
       icon: <DollarSign size="md" className="text-purple-400" />,
       color: 'purple' as const,
-      trend: { value: 0, isPositive: false }
+      trend: { value: ((stats.motherlode -lastStats.motherlode)/stats.motherlode).toFixed(3), isPositive: true }
     },
     {
       title: t('dashboard.motherBlockInterval'),
       value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))}`,
       icon: <TrendingUp size="md" className="text-red-400" />,
       color: 'red' as const,
-      trend: { value: 3.1, isPositive: true }
+      trend: { value: 0, isPositive: true }
     }
   ];
   return (

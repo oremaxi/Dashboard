@@ -8,9 +8,9 @@ import { Buffer } from 'buffer'
 window.Buffer = Buffer
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  // <StrictMode>
     <ErrorBoundary>
       <App />
     </ErrorBoundary>
-  </StrictMode>,
+  // </StrictMode>,
 )
