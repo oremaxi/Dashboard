@@ -86,7 +86,7 @@ interface MiningStatsProps {
 
 export const MiningStatsCountDownCards: React.FC<MiningStatsProps> = ({ stats,lastStats, loading = false }) => {
   const { t } = useTranslation();
-  console.log(stats.ev)
+  // console.log(stats.ev)
   const cards = [
     {
       title: t('dashboard.miningCost'),

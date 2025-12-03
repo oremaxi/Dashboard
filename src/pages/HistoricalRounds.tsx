@@ -43,26 +43,29 @@ export const HistoricalRounds: React.FC = () => {
     const oreService = createOREService();
     const data = await oreService.getRealOREData();
     const nowId = data.miningData.currentRound.roundNumber;
-    const rounds = [];
-    for(let i = 1 ; i <6 ; i++)
-    {
-      const res = await fetch('https://api.oremax.xyz/api/round/'+(nowId-i));
-      const json = await res.json();
-      // console.log("his :: ",json)
-      rounds.push(json)
-    }
-
+    // const rounds = [];
+    // for(let i = 1 ; i <6 ; i++)
+    // {
+    //   const res = await fetch('https://api.oremax.xyz/api/round/'+(nowId-i));
+    //   const json = await res.json();
+    //   rounds.push(json)
+    // }
+    const res = await fetch('https://api.oremax.xyz/api/round/history/'+(nowId-1));
+    const json = await res.json();
+    // rounds.push(json)
+    const rounds = json
     console.log("his :: ",rounds)
     let r = []
     if(rounds)
     {
       for(let i of rounds)
       {
-        let totalMiners = 0;
-        for(let u of i.count)
-        {
-          totalMiners+= u;
-        }
+        // let totalMiners = 0;
+        // for(let u of i.count)
+        // {
+        //   totalMiners+= u;
+        // }
+        let totalMiners = i.miner_count
         r.push({
           id: i?.round_id,
           roundNumber:i?.round_id,
@@ -148,7 +151,8 @@ export const HistoricalRounds: React.FC = () => {
                   轮次 #{selectedRound.roundNumber}
                 </h1>
                 <p className="text-sm text-slate-400">
-                  {(new Date(selectedRound.raw.resultUpdatedAt)).toString()}
+                  {/* {(new Date(selectedRound.raw.resultUpdatedAt)).toString()} */}
+                  SLOT {selectedRound.raw.end_slot}
                 </p>
               </div>
             </div>
@@ -367,20 +371,22 @@ export const HistoricalRounds: React.FC = () => {
                 const oreService = createOREService();
                 const nowId = searchTerm;
                 const rounds = [];
-                const res = await fetch('https://api.oremax.xyz/api/round/'+(nowId));
+                const res = await fetch('https://api.oremax.xyz/api/round/history/'+(nowId));
                 const json = await res.json();
-                rounds.push(json)
-                console.log("his :: ",rounds)
+                console.log("his :: ",json)
+                rounds.push(json[0])
+
                 let r = []
                 if(rounds)
                 {
                   for(let i of rounds)
                   {
-                    let totalMiners = 0;
-                    for(let u of i.count)
-                    {
-                      totalMiners+= u;
-                    }
+                    // let totalMiners = 0;
+                    // for(let u of i.count)
+                    // {
+                    //   totalMiners+= u;
+                    // }
+                    let totalMiners = i.miner_count
                     r.push({
                       id: i?.round_id,
                       roundNumber:i?.round_id,

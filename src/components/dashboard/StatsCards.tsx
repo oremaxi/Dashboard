@@ -120,14 +120,14 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
     },
     {
       title: t('dashboard.motherBlock'),
-      value: `${Number((stats.motherlode/1e11).toFixed(3))}`,
+      value: `${Number((stats.motherlode/1e11).toFixed(3))} ORE`,
       icon: <DollarSign size="md" className="text-purple-400" />,
       color: 'purple' as const,
       trend: { value: ((stats.motherlode -lastStats.motherlode)/stats.motherlode).toFixed(3), isPositive: true }
     },
     {
       title: t('dashboard.motherBlockInterval'),
-      value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))}`,
+      value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))} ROUND`,
       icon: <TrendingUp size="md" className="text-red-400" />,
       color: 'red' as const,
       trend: { value: 0, isPositive: true }
