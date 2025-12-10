@@ -2,18 +2,19 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '../ui/Card';
 import { SolIcon, TrendingUp, DollarSign } from '../ui/Icon';
-import { formatNumber, formatSOL } from '../../services/oreService';
+import { formatNumber, formatSOL, formatSOLRaw } from '../../services/oreService';
 
 interface StatsCardProps {
   title: string;
   value: string | number;
+  moreValue:any;
   subtitle?: string;
   icon: React.ReactNode;
   trend?: {
     value: number;
     isPositive: boolean;
   };
-  color?: 'blue' | 'green' | 'yellow' | 'purple' | 'red';
+  color?: string;
   loading?: boolean;
 }
 
@@ -28,6 +29,7 @@ const colorVariants = {
 export const StatsCard: React.FC<StatsCardProps> = ({
   title,
   value,
+  moreValue,
   subtitle,
   icon,
   trend,
@@ -49,8 +51,8 @@ export const StatsCard: React.FC<StatsCardProps> = ({
             ) : (
               <>
                 <div className="flex items-baseline space-x-2">
-                  <h3 className="text-2xl font-bold text-white">
-                    {typeof value === 'number' ? formatNumber(value) : value}
+                  <h3 className={`flex text-2xl font-bold text-${color}`}>
+                    {typeof value === 'number' ? formatNumber(value) : value} {moreValue}
                   </h3>
                   {trend && (
                     <div className={`flex items-center space-x-1 text-xs ${
@@ -105,31 +107,35 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
   // console.log(stats)
   const cards = [
     {
+      title: t('dashboard.motherBlock'),
+      value: `${Number((stats.motherlode/1e11).toFixed(3))} ORE`,
+      moreValue:<img src='/ore.png' style={{maxWidth:"30px",maxHeight:"30px"}} />,
+      icon: <DollarSign size="md" className="text-purple-400" />,
+      color: 'gold' as const,
+      trend: { value: ((stats.motherlode -lastStats.motherlode)/stats.motherlode).toFixed(3), isPositive: true }
+    },
+    {
       title: t('dashboard.totalDeployedSOL'),
-      value: formatSOL(stats.totalDeployedSOL),
+      value: formatSOLRaw(stats.totalDeployedSOL),
+      moreValue:<img src='/sol.png' style={{maxWidth:"30px",maxHeight:"30px"}} />,
       icon: <SolIcon size="md" className="text-blue-400" />,
-      color: 'blue' as const,
+      color: 'white' as const,
       trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
     },
     {
       title: t('dashboard.uniqueMiners'),
-      value: stats.uniqueMiners,
+      value: stats.uniqueMiners+"👷",
+      moreValue:"",
       icon: <TrendingUp size="md" className="text-green-400" />,
-      color: 'green' as const,
+      color: 'white' as const,
       trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }
     },
     {
-      title: t('dashboard.motherBlock'),
-      value: `${Number((stats.motherlode/1e11).toFixed(3))} ORE`,
-      icon: <DollarSign size="md" className="text-purple-400" />,
-      color: 'purple' as const,
-      trend: { value: ((stats.motherlode -lastStats.motherlode)/stats.motherlode).toFixed(3), isPositive: true }
-    },
-    {
       title: t('dashboard.motherBlockInterval'),
-      value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))} ROUND`,
+      value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))}⏰`,
+      moreValue:"",
       icon: <TrendingUp size="md" className="text-red-400" />,
-      color: 'red' as const,
+      color: 'white' as const,
       trend: { value: 0, isPositive: true }
     }
   ];
@@ -140,6 +146,7 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
           key={index}
           title={card.title}
           value={card.value}
+          moreValue={card.moreValue}
           icon={card.icon}
           color={card.color}
           trend={card.trend}

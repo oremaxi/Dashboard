@@ -95,19 +95,37 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
       return 'bg-gradient-to-br from-cyan-500 to-blue-600 border-cyan-300';
     }
 
+    // switch (level) {
+    //   case 'farAbove':
+    //     // 远高于均值：亮绿色偏青
+    //     return 'bg-emerald-500/30 border-emerald-300 hover:bg-emerald-500/40 hover:border-emerald-200';
+    //   case 'above':
+    //     // 高于均值：稍浅绿色
+    //     return 'bg-emerald-500/15 border-emerald-400 hover:bg-emerald-500/25 hover:border-emerald-300';
+    //   case 'below':
+    //     // 低于均值：偏橙色
+    //     return 'bg-amber-500/15 border-amber-400 hover:bg-amber-500/25 hover:border-amber-300';
+    //   case 'farBelow':
+    //     // 远低于均值：偏红色
+    //     return 'bg-rose-500/25 border-rose-500 hover:bg-rose-500/35 hover:border-rose-400';
+    //   default:
+    //     return 'bg-slate-600/20 border-slate-500/50 hover:bg-slate-600/30 hover:border-slate-500';
+    // }
+
+
     switch (level) {
-      case 'farAbove':
-        // 远高于均值：亮绿色偏青
-        return 'bg-emerald-500/30 border-emerald-300 hover:bg-emerald-500/40 hover:border-emerald-200';
-      case 'above':
-        // 高于均值：稍浅绿色
-        return 'bg-emerald-500/15 border-emerald-400 hover:bg-emerald-500/25 hover:border-emerald-300';
-      case 'below':
-        // 低于均值：偏橙色
-        return 'bg-amber-500/15 border-amber-400 hover:bg-amber-500/25 hover:border-amber-300';
-      case 'farBelow':
-        // 远低于均值：偏红色
+      // case 'farAbove':
+      //   // 远高于均值：亮绿色偏青
+      //   return 'bg-emerald-500/30 border-emerald-300 hover:bg-emerald-500/40 hover:border-emerald-200';
+      case 'above':case 'farAbove':
+        // 偏红色
         return 'bg-rose-500/25 border-rose-500 hover:bg-rose-500/35 hover:border-rose-400';
+      case 'below':
+        // 稍浅绿色
+        return 'bg-emerald-500/15 border-emerald-400 hover:bg-emerald-500/25 hover:border-emerald-300';
+      case 'farBelow':
+        // 偏橙色
+        return 'bg-amber-500/15 border-amber-400 hover:bg-amber-500/25 hover:border-amber-300';
       default:
         return 'bg-slate-600/20 border-slate-500/50 hover:bg-slate-600/30 hover:border-slate-500';
     }
@@ -240,7 +258,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
               )}
             </div>
             
-            <Button
+            {/* <Button
               variant="outline"
               size="sm"
               onClick={loadRealGridData}
@@ -249,7 +267,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
             >
               <RefreshIcon size="sm" />
               <span>刷新</span>
-            </Button>
+            </Button> */}
             <Button
               variant="outline"
               size="sm"
@@ -267,14 +285,14 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
               全选
             </Button>
             {/* 全局选择开关 */}
-            <Button
+            {/* <Button
               variant="outline"
               size="sm"
               // onClick={() => setIsSelectionEnabled(prev => !prev)}
               className="flex items-center space-x-1"
             >
               <span>{isSelectionEnabled ? '🔓 进行中' : '🔒 已锁定'}</span>
-            </Button>
+            </Button> */}
           </div>
         </div>
         
@@ -286,26 +304,26 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
         )}
         
         <div className="flex flex-wrap items-center gap-3 text-xs text-slate-400 mt-2">
-          <div className="flex items-center space-x-1">
+          {/* <div className="flex items-center space-x-1">
             <div className="w-3 h-3 rounded bg-emerald-400/80 border border-emerald-300"></div>
             <span>远高于均值</span>
-          </div>
+          </div> */}
           <div className="flex items-center space-x-1">
             <div className="w-3 h-3 rounded bg-emerald-500/40 border border-emerald-400"></div>
-            <span>高于均值</span>
-          </div>
-          <div className="flex items-center space-x-1">
-            <div className="w-3 h-3 rounded bg-amber-400/60 border border-amber-400"></div>
             <span>低于均值</span>
           </div>
           <div className="flex items-center space-x-1">
-            <div className="w-3 h-3 rounded bg-rose-500/70 border border-rose-500"></div>
+            <div className="w-3 h-3 rounded bg-amber-400/60 border border-amber-400"></div>
             <span>远低于均值</span>
           </div>
-          <div className="flex items-center space-x-1 ml-auto">
+          <div className="flex items-center space-x-1">
+            <div className="w-3 h-3 rounded bg-rose-500/70 border border-rose-500"></div>
+            <span>高于均值</span>
+          </div>
+          {/* <div className="flex items-center space-x-1 ml-auto">
             <InfoIcon size="xs" />
             <span>{t('dashboard.selectMultiple')}</span>
-          </div>
+          </div> */}
         </div>
       </CardHeader>
       
@@ -324,7 +342,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
                   'flex flex-col items-center justify-center p-2 overflow-hidden',
                   isSelectionEnabled
                     ? 'cursor-pointer hover:scale-105 hover:shadow-lg'
-                    : 'cursor-not-allowed opacity-60',
+                    :"hover:scale-105 hover:shadow-lg mask-enabled",// 'cursor-not-allowed opacity-60 ',
                   getCellColorClasses(cell, level, isSelected),
                   isSelected && 'scale-105 shadow-xl ring-2 ring-cyan-300'
                 )}
@@ -349,11 +367,11 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
                 
                 {/* 主要数据 */}
                 <div className="relative text-center z-10">
-                  <div className="text-xs font-bold text-white">
-                    {cell.miners}
-                  </div>
                   <div className="text-xs text-slate-200">
-                    矿工
+                    #{cell.id}
+                  </div>
+                  <div className="text-xs font-bold text-white">
+                    {cell.miners}👷
                   </div>
                 </div>
                 
@@ -371,10 +389,10 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
                 <div
                   className={cn(
                     'absolute bottom-1 left-1 right-1 h-1.5 rounded-full z-10',
-                    level === 'farAbove' && 'bg-emerald-300',
-                    level === 'above' && 'bg-emerald-500',
-                    level === 'below' && 'bg-amber-400',
-                    level === 'farBelow' && 'bg-rose-500',
+                   ( level === 'farAbove' ||  level === 'above') && 'bg-rose-500', 
+                    // level === 'above' && 'bg-emerald-500',
+                    level === 'below' && 'bg-emerald-300',
+                    level === 'farBelow' && 'bg-amber-400',
                     level === 'normal' && 'bg-slate-400'
                   )}
                   style={{ width: `${cell.progress}%` }}

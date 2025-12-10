@@ -86,7 +86,15 @@ export function generateGridData(round: any): GridCell[] {
 // 生成挖矿统计数据
 export function generateMiningStats(rounds: any[]): any {
   const latestRound = rounds[0];
-  // console.log(latestRound)
+
+  let belowAvgCount = 0;
+  if(latestRound?.miningData && latestRound.miningData?.sols && latestRound.miningData.sols?.length>0)
+  {
+    const average = latestRound.miningData.sols.reduce((sum, v) => sum + v, 0) / latestRound.miningData.sols.length;
+    belowAvgCount = latestRound.miningData.sols.filter(v => v < average).length;
+  }
+
+
   return {
     totalDeployedSOL: latestRound.totalDeployedSOL,
     uniqueMiners: latestRound.uniqueMiners,
@@ -97,6 +105,7 @@ export function generateMiningStats(rounds: any[]): any {
     motherlode:latestRound?.raw?latestRound.raw.motherlode.treasuary:0,
     cost:latestRound?.raw?latestRound.raw.motherlode.cost:0,
     ev:latestRound?.raw?latestRound.raw.motherlode.ev:0,
+    belowAvgCount
   };
 }
 
@@ -164,6 +173,9 @@ export function formatNumber(_num: any, decimals: number = 2): string {
 // 格式化SOL数量
 export function formatSOL(amount: number): string {
   return `${formatNumber(amount, 4)} SOL`;
+}
+export function formatSOLRaw(amount: number): string {
+  return `${formatNumber(amount, 4)}`;
 }
 
 // 格式化时间

@@ -13,7 +13,7 @@ interface StatsCardProps {
     value: number;
     isPositive: boolean;
   };
-  color?: 'blue' | 'green' | 'yellow' | 'purple' | 'red';
+  color?: string;
   loading?: boolean;
 }
 
@@ -49,7 +49,7 @@ export const StatsCard: React.FC<StatsCardProps> = ({
             ) : (
               <>
                 <div className="flex items-baseline space-x-2">
-                  <h3 className="text-2xl font-bold text-white">
+                  <h3 className={`text-2xl font-bold text-${color}`}>
                     {typeof value === 'number' ? formatNumber(value) : value}
                   </h3>
                 </div>
@@ -71,6 +71,7 @@ interface MiningStatsProps {
     estimatedCost: number;
     cost: number;
     ev:number;
+    belowAvgCount:number;
   };
   lastStats: {
     totalDeployedSOL: number;
@@ -80,6 +81,7 @@ interface MiningStatsProps {
     estimatedCost: number;
     cost: number;
     ev:number;
+    belowAvgCount:number;
   };
   loading?: boolean;
 }
@@ -92,14 +94,28 @@ export const MiningStatsCountDownCards: React.FC<MiningStatsProps> = ({ stats,la
       title: t('dashboard.miningCost'),
       value: `${(stats.cost).toFixed(1)}$`,
       icon: <SolIcon size="md" className="text-blue-400" />,
-      color: 'blue' as const,
+      color: 'white' as const,
       trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
     },
     {
       title: t('dashboard.ev'),
-      value: `${(stats.ev).toFixed(3)}`,
+      value: `${(stats.ev*100).toFixed(3)}%`,
       icon: <TrendingUp size="md" className="text-green-400" />,
-      color: 'green' as const,
+      color: 'green-400' as const,
+      trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }
+    },
+    {
+      title: t('dashboard.averageDeploy'),
+      value: `${(stats.totalDeployedSOL/25).toFixed(1)} SOL`,
+      icon: <SolIcon size="md" className="text-blue-400" />,
+      color: 'white' as const,
+      trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
+    },
+    {
+      title: t('dashboard.belowAverage'),
+      value: `${stats.belowAvgCount}`,
+      icon: <TrendingUp size="md" className="text-green-400" />,
+      color: 'white' as const,
       trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }
     },
   ];

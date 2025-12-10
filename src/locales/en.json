@@ -34,6 +34,7 @@
     "roundId": "Round ID",
     "countdown": "Countdown",
     "totalDeployedSOL": "Total Deployed SOL",
+    "averageDeploy": "Average Deployed",
     "uniqueMiners": "Unique Miners",
     "bids": "Bids",
     "buyback": "Buyback",

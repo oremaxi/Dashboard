@@ -263,3 +263,22 @@ img {
   border-radius: 12px !important;
   color: white !important;
 }
+
+.mask-enabled {
+  background-color: transparent !important; /* 去掉背景色 */
+  border-color: transparent !important;     /* 去掉边框色 */
+  box-shadow: none !important;              /* 去掉阴影 */
+}
+
+.mask-enabled::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #1e293b; /* 全黑遮罩 */
+  z-index: 20;
+  pointer-events: none;
+}
+
+.text-gold {
+  color: #FFD700; /* 真实金色 */
+}

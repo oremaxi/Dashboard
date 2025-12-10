@@ -155,7 +155,8 @@ export const Dashboard: React.FC = () => {
   const connectionStatus = getConnectionStatus();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+    <div className="min-h-screen bg-black from-slate-900 via-slate-800 to-slate-900">
+      {/* bg-gradient-to-br */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
@@ -171,7 +172,7 @@ export const Dashboard: React.FC = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <Button
+            {/* <Button
               onClick={refreshData}
               isLoading={isRefreshing}
               variant="outline"
@@ -179,7 +180,7 @@ export const Dashboard: React.FC = () => {
             >
               <RefreshIcon size="sm" />
               <span>刷新数据</span>
-            </Button>
+            </Button> */}
           </div>
         </div>
 
@@ -196,7 +197,7 @@ export const Dashboard: React.FC = () => {
         {/* Main Content: Grid and Trading Panel */}
         <div className="grid grid-cols-1 xl:grid-cols-4 gap-6">
           {/* Mining Grid */}
-          <div className="xl:col-span-3">
+          <div className="xl:col-span-2">
             <MiningGrid
               cells={gridCells}
               onCellToggle={handleCellToggle}
@@ -206,7 +207,7 @@ export const Dashboard: React.FC = () => {
           </div>
 
           {/* Trading Panel */}
-          <div className="xl:col-span-1">
+          <div className="xl:col-span-2">
             <CountdownTimer
               endTime={currentRound.endTime}
               startTime={currentRound.startTime}
@@ -229,7 +230,7 @@ export const Dashboard: React.FC = () => {
         {/* Quick Actions */}
 
         {/* 系统状态 */}
-        <div className="mt-6 text-center">
+        {/* <div className="mt-6 text-center">
           <div className="flex items-center justify-center space-x-6 text-sm text-slate-400">
             <div className="flex items-center space-x-2">
               <div className={`w-2 h-2 rounded-full animate-pulse ${
@@ -255,7 +256,7 @@ export const Dashboard: React.FC = () => {
               <span>{error ? '降级模式' : '系统正常'}</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
