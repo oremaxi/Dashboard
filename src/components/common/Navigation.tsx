@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '../ui/Button';
 import { GridIcon, HistoryIcon, SettingsIcon, BookOpenIcon, CodeIcon } from '../ui/Icon';
 import { LanguageSwitcher } from '../common/LanguageSwitcher';
-import { TimezoneSwitcher } from '../common/TimezoneSwitcher';
+import { TimezoneSwitcher,SolPrice,OrePrice } from '../common/TimezoneSwitcher';
 import { WalletConnection } from '../wallet/WalletConnection';
 
 const navItems = [
@@ -79,13 +79,15 @@ export const Navigation: React.FC = () => {
           {/* Controls */}
           <div className="flex items-center space-x-3">
             {/* Timezone Switcher */}
-            <TimezoneSwitcher 
+            {/* <TimezoneSwitcher 
               value={localStorage.getItem('timezone') as 'local' | 'utc' || 'local'}
               onChange={(timezone) => {
                 localStorage.setItem('timezone', timezone);
                 window.location.reload();
               }}
-            />
+            /> */}
+            <SolPrice/>
+            <OrePrice/>
             
             {/* Language Switcher */}
             <LanguageSwitcher />

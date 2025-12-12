@@ -88,10 +88,19 @@ export function generateMiningStats(rounds: any[]): any {
   const latestRound = rounds[0];
 
   let belowAvgCount = 0;
+  let price = {
+    sol:1,
+    ore:1,
+  }
   if(latestRound?.miningData && latestRound.miningData?.sols && latestRound.miningData.sols?.length>0)
   {
     const average = latestRound.miningData.sols.reduce((sum, v) => sum + v, 0) / latestRound.miningData.sols.length;
     belowAvgCount = latestRound.miningData.sols.filter(v => v < average).length;
+
+    price = {
+      sol:latestRound.miningData.price.sol,
+      ore:latestRound.miningData.price.ore
+    }
   }
 
 
@@ -105,7 +114,8 @@ export function generateMiningStats(rounds: any[]): any {
     motherlode:latestRound?.raw?latestRound.raw.motherlode.treasuary:0,
     cost:latestRound?.raw?latestRound.raw.motherlode.cost:0,
     ev:latestRound?.raw?latestRound.raw.motherlode.ev:0,
-    belowAvgCount
+    belowAvgCount,
+    price
   };
 }
 

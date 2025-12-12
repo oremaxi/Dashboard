@@ -9,7 +9,67 @@ interface TimezoneSwitcherProps {
   value: Timezone;
   onChange: (timezone: Timezone) => void;
 }
+const readNumberFromLocalStorage = (key: string): number => {
+  const raw = localStorage.getItem(key);
+  const num = Number(raw);
+  return Number.isFinite(num) ? num : 0;
+};
+export const SolPrice: React.FC = () => {
+  const [price, setPrice] = useState<number>(0);
 
+  useEffect(() => {
+    const update = () => {
+      setPrice(readNumberFromLocalStorage('solPrice'));
+    };
+
+    update(); // 首次立即同步一次
+    const timer = setInterval(update, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="flex items-center space-x-1 bg-slate-800 rounded-lg p-1">
+      <div className="flex items-baseline space-x-2">
+        <h3 className="flex items-center text-sm font-bold">
+          <img
+            src="/sol.png"
+            style={{ maxWidth: '20px', maxHeight: '20px', marginRight: '4px' }}
+          />
+          ${(price).toFixed(2)}
+        </h3>
+      </div>
+    </div>
+  );
+};
+export const OrePrice: React.FC = () => {
+  const [price, setPrice] = useState<number>(0);
+
+  useEffect(() => {
+    const update = () => {
+      setPrice(readNumberFromLocalStorage('orePrice'));
+    };
+
+    update(); // 首次立即同步一次
+    const timer = setInterval(update, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="flex items-center space-x-1 bg-slate-800 rounded-lg p-1">
+      <div className="flex items-baseline space-x-2">
+        <h3 className="flex items-center text-sm font-bold">
+          <img
+            src="/ore.png"
+            style={{ maxWidth: '20px', maxHeight: '20px', marginRight: '4px' }}
+          />
+          ${(price).toFixed(2)}
+        </h3>
+      </div>
+    </div>
+  );
+};
 export const TimezoneSwitcher: React.FC<TimezoneSwitcherProps> = ({
   value,
   onChange
@@ -18,7 +78,7 @@ export const TimezoneSwitcher: React.FC<TimezoneSwitcherProps> = ({
 
   return (
     <div className="flex items-center space-x-1 bg-slate-800 rounded-lg p-1">
-      <Button
+      {/* <Button
         variant={value === 'local' ? 'primary' : 'ghost'}
         size="sm"
         onClick={() => onChange('local')}
@@ -26,7 +86,7 @@ export const TimezoneSwitcher: React.FC<TimezoneSwitcherProps> = ({
       >
         <SunIcon size="sm" />
         <span className="hidden sm:inline text-xs">{t('time.localTime')}</span>
-      </Button>
+      </Button> */}
       {/* <Button
         variant={value === 'utc' ? 'primary' : 'ghost'}
         size="sm"
@@ -36,6 +96,18 @@ export const TimezoneSwitcher: React.FC<TimezoneSwitcherProps> = ({
         <ClockIcon size="sm" />
         <span className="hidden sm:inline text-xs">UTC</span>
       </Button> */}
+
+      <div className="flex items-baseline space-x-2">
+        <h3 className={`flex text-sm font-bold`}>
+          <img src='/sol.png' style={{maxWidth:"20px",maxHeight:"20px"}} /> $127 
+        </h3>
+      </div>
+
+      <div className="flex items-baseline space-x-2">
+        <h3 className={`flex text-sm font-bold`}>
+          <img src='/ore.png' style={{maxWidth:"20px",maxHeight:"20px"}} /> $127 
+        </h3>
+      </div>
     </div>
   );
 };

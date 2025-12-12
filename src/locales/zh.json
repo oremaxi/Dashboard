@@ -35,7 +35,7 @@
     "countdown": "倒计时",
     "totalDeployedSOL": "总部署SOL",
     "averageDeploy": "平均部署",
-    "uniqueMiners": "独立矿工",
+    "uniqueMiners": "矿工数",
     "bids": "出价",
     "buyback": "回购",
     "estimatedCost": "预估成本",
@@ -47,7 +47,7 @@
     "selectMultiple": "点击多选",
     "selectedCells": "已选择 {{count}} 个区块",
     "motherBlock":"奖池",
-    "motherBlockInterval":"距上轮母块间隔轮次",
+    "motherBlockInterval":"开奖后已过轮次",
     "miningCost":"生产成本",
     "ev":"EV计算"
   },

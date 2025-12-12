@@ -54,6 +54,7 @@ export interface ORERealData {
     supplyPercentage: number;
   };
   miningData: {
+    price:any;
     currentRound: {
       roundNumber: number;
       startTime: number;
@@ -161,9 +162,17 @@ async getOREPriceByJupiter(): Promise<any> {
         miners+=i;
       }
       const motherlode = json.treasury.motherlode;
-      const ev = 0.1*totalSol / (1+(motherlode/(1e11*625)));
+      const breakeven = 0.1*totalSol / (1+(motherlode/(1e11*625)))
+      // console.log("EV culcuate :: ",breakeven,this?.orePrice)
+      const ev = (this?.orePrice - breakeven)/this?.orePrice;
       const cost = (0.11 * totalSol * this?.solPrice?this.solPrice:0) / 1.2
       // console.log(ev,cost)
+
+      if(this?.solPrice && this?.orePrice)
+      {
+        localStorage.setItem("solPrice",String(this?.solPrice))
+        localStorage.setItem("orePrice",String(this?.orePrice))
+      }
       return {
         tokenInfo: {
           mint: ORE_CONSTANTS.TOKEN_MINT,
@@ -173,6 +182,10 @@ async getOREPriceByJupiter(): Promise<any> {
           supplyPercentage: Number(41113631952575) / 500000000000000
         },
         miningData:{
+          price:{
+            sol:this?.solPrice,
+            ore:this?.orePrice
+          },
           currentRound: {
             roundNumber:json.round.id,
             startTime: startTime,

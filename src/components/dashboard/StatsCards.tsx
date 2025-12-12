@@ -54,18 +54,23 @@ export const StatsCard: React.FC<StatsCardProps> = ({
                   <h3 className={`flex text-2xl font-bold text-${color}`}>
                     {typeof value === 'number' ? formatNumber(value) : value} {moreValue}
                   </h3>
-                  {trend && (
+                  {/* {trend && (
                     <div className={`flex items-center space-x-1 text-xs ${
                       trend.isPositive ? 'text-green-400' : 'text-red-400'
                     }`}>
                       <TrendingUp size="sm" className={trend.isPositive ? 'rotate-0' : 'rotate-180'} />
                       <span>{Math.abs(trend.value)}%</span>
                     </div>
-                  )}
+                  )} */}
                 </div>
-                {subtitle && (
+                <p className="flex text-sm text-slate-400 mt-1">{
+                  subtitle
+                  }  
+                  {/* <TrendingUp size="md" className="text-green-400" /> */}
+                  </p>
+                {/* {subtitle && (
                   <p className="text-xs text-slate-400 mt-1">{subtitle}</p>
-                )}
+                )} */}
               </>
             )}
           </div>
@@ -89,7 +94,8 @@ interface MiningStatsProps {
     bids: number;
     buyback: number;
     estimatedCost: number;
-    motherlode:number
+    motherlode:number;
+    price:any;
   };
   lastStats: {
     totalDeployedSOL: number;
@@ -97,7 +103,8 @@ interface MiningStatsProps {
     bids: number;
     buyback: number;
     estimatedCost: number;
-    motherlode:number
+    motherlode:number;
+    price:any;
   };
   loading?: boolean;
 }
@@ -111,6 +118,7 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
       value: `${Number((stats.motherlode/1e11).toFixed(3))} ORE`,
       moreValue:<img src='/ore.png' style={{maxWidth:"30px",maxHeight:"30px"}} />,
       icon: <DollarSign size="md" className="text-purple-400" />,
+      subtitle:`${((stats.motherlode/1e11)*(stats?.price?stats.price.ore:0)).toFixed(2)} $`,
       color: 'gold' as const,
       trend: { value: ((stats.motherlode -lastStats.motherlode)/stats.motherlode).toFixed(3), isPositive: true }
     },
@@ -119,6 +127,7 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
       value: formatSOLRaw(stats.totalDeployedSOL),
       moreValue:<img src='/sol.png' style={{maxWidth:"30px",maxHeight:"30px"}} />,
       icon: <SolIcon size="md" className="text-blue-400" />,
+      subtitle:`${((stats.totalDeployedSOL)*(stats?.price?stats.price.sol:0)).toFixed(2)} $`,
       color: 'white' as const,
       trend: { value: ((stats.totalDeployedSOL -lastStats.totalDeployedSOL)/stats.totalDeployedSOL).toFixed(3), isPositive: stats.totalDeployedSOL >lastStats.totalDeployedSOL }
     },
@@ -127,6 +136,7 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
       value: stats.uniqueMiners+"👷",
       moreValue:"",
       icon: <TrendingUp size="md" className="text-green-400" />,
+      subtitle:"",
       color: 'white' as const,
       trend: { value: ((stats.uniqueMiners -lastStats.uniqueMiners)/stats.uniqueMiners).toFixed(3) , isPositive: stats.uniqueMiners >lastStats.uniqueMiners }
     },
@@ -135,6 +145,7 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
       value: `${Number((stats.motherlode/(0.2*1e11)).toFixed(0))}⏰`,
       moreValue:"",
       icon: <TrendingUp size="md" className="text-red-400" />,
+      subtitle:"",
       color: 'white' as const,
       trend: { value: 0, isPositive: true }
     }
@@ -147,6 +158,7 @@ export const MiningStatsCards: React.FC<MiningStatsProps> = ({ stats,lastStats, 
           title={card.title}
           value={card.value}
           moreValue={card.moreValue}
+          subtitle={card.subtitle}
           icon={card.icon}
           color={card.color}
           trend={card.trend}
