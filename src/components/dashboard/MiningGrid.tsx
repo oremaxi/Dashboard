@@ -72,7 +72,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
   const [error, setError] = useState<string | null>(null);
   // 全局控制是否允许选择
   const [isSelectionEnabled, setIsSelectionEnabled] = useState(true);
-
+  const [isTargetBlock, setIsTargetBlock] = useState('26');
   // 用当前 cells 计算部署均值（用于远高于/高于/低于/远低于）
   const totalDeployedSOL = cells.reduce((sum, cell) => sum + cell.deployedSOL, 0);
   const averageDeployedSOL = cells.length ? totalDeployedSOL / cells.length : 0;
@@ -94,24 +94,6 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
       // 选中时高亮 + 渐变，背景主色保持一致系
       return 'bg-gradient-to-br from-cyan-500 to-blue-600 border-cyan-300';
     }
-
-    // switch (level) {
-    //   case 'farAbove':
-    //     // 远高于均值：亮绿色偏青
-    //     return 'bg-emerald-500/30 border-emerald-300 hover:bg-emerald-500/40 hover:border-emerald-200';
-    //   case 'above':
-    //     // 高于均值：稍浅绿色
-    //     return 'bg-emerald-500/15 border-emerald-400 hover:bg-emerald-500/25 hover:border-emerald-300';
-    //   case 'below':
-    //     // 低于均值：偏橙色
-    //     return 'bg-amber-500/15 border-amber-400 hover:bg-amber-500/25 hover:border-amber-300';
-    //   case 'farBelow':
-    //     // 远低于均值：偏红色
-    //     return 'bg-rose-500/25 border-rose-500 hover:bg-rose-500/35 hover:border-rose-400';
-    //   default:
-    //     return 'bg-slate-600/20 border-slate-500/50 hover:bg-slate-600/30 hover:border-slate-500';
-    // }
-
 
     switch (level) {
       // case 'farAbove':
@@ -143,11 +125,29 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
       const data = await oreService.getRealOREData();
       setRealData(data);
       const remaining = Math.max(0, data.clock.endTime - Date.now());
+      // console.log("Now remaining",remaining)
       if(remaining)
       {
         setIsSelectionEnabled(true)
+        localStorage.setItem("TargetBlock","26");
+        setIsTargetBlock(`${26}`)
       }else{
         setIsSelectionEnabled(false)
+        if(localStorage.getItem("TargetBlock")=="26")
+        {
+          try{
+            console.log(isTargetBlock)
+            const res = await fetch('https://api.oremax.xyz/api/round/'+(data.miningData.currentRound.roundNumber));
+            const json = await res.json();
+            console.log("Ret json :: ",json)
+            localStorage.setItem("TargetBlock",`${json.winning_square}`);
+            setIsTargetBlock(`${json.winning_square}`)
+          }catch(e)
+          {
+            console.error(e)
+          }
+        }
+
       }
       const realCells = generateRealGridData(data);
       setCells(realCells);
@@ -162,6 +162,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
 
   // 初始化时加载数据
   useEffect(() => {
+    localStorage.setItem("TargetBlock","26");
     if (enableRealData) {
       loadRealGridData();
       const interval = setInterval(loadRealGridData, 1000);
@@ -324,6 +325,7 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
             <InfoIcon size="xs" />
             <span>{t('dashboard.selectMultiple')}</span>
           </div> */}
+          {isTargetBlock}
         </div>
       </CardHeader>
       
@@ -340,9 +342,9 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
                 className={cn(
                   'relative aspect-square rounded-lg border-2 transition-all duration-200',
                   'flex flex-col items-center justify-center p-2 overflow-hidden',
-                  isSelectionEnabled
-                    ? 'cursor-pointer hover:scale-105 hover:shadow-lg'
-                    :"hover:scale-105 hover:shadow-lg mask-enabled",// 'cursor-not-allowed opacity-60 ',
+                  (!isSelectionEnabled&&String(cell.id)!=isTargetBlock)
+                    ? "hover:scale-105 hover:shadow-lg mask-enabled"
+                    :'cursor-pointer hover:scale-105 hover:shadow-lg',// 'cursor-not-allowed opacity-60 ',
                   getCellColorClasses(cell, level, isSelected),
                   isSelected && 'scale-105 shadow-xl ring-2 ring-cyan-300'
                 )}
@@ -354,11 +356,11 @@ export const MiningGrid: React.FC<MiningGridProps> = ({
                 )}
 
                 {/* 禁用锁层 */}
-                {!isSelectionEnabled && (
+                {/* {!isSelectionEnabled && (
                   <div className="pointer-events-none absolute inset-0 rounded-lg bg-black/40 flex items-center justify-center text-2xl">
                     <span role="img" aria-label="locked">🔒</span>
                   </div>
-                )}
+                )} */}
 
                 {/* 选择指示器 */}
                 {isSelected && (
